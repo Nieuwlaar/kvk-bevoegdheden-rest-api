@@ -1,0 +1,15 @@
+__debug_bin
+/keys
+/cache
+/.vscode
+.DS_Store
+/tmp
+.env
+kvk-extract-manual
+restart.sh
+generateCsv.go
+all.json
+extract.json
+MogelijkeWaarden.xlsx
+runAll.go
+writeToCache.go

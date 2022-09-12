@@ -1,0 +1,1944 @@
+<soap:Envelope xmlns:soap="http://schemas.xmlsoap.org/soap/envelope/">
+  <wstxns1:Header xmlns:wsa="http://www.w3.org/2005/08/addressing"
+    xmlns:wstxns1="http://schemas.xmlsoap.org/soap/envelope/">
+    <wsse:Security soap:mustUnderstand="1"
+      xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
+      xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+      <wsu:Timestamp wsu:Id="id-2-fd1f501a01cb92027ea08ffb81ace7e8">
+        <wsu:Created>2022-06-16T08:15:03.658Z</wsu:Created>
+        <wsu:Expires>2022-06-16T08:20:03.658Z</wsu:Expires>
+      </wsu:Timestamp>
+      <wsse:BinarySecurityToken EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" wsu:Id="id-0-34b18a418b3d3be5ef5fd973824866ef"
+        xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">MIIIcDCCBligAwIBAgIUFgvFVqDKVWkOSH9VkL0AhwQfhl0wDQYJKoZIhvcNAQELBQAwXTELMAkGA1UEBhMCTkwxIDAeBgNVBAoMF1F1b1ZhZGlzIFRydXN0bGluayBCLlYuMSwwKgYDVQQDDCNRdW9WYWRpcyBQS0lvdmVyaGVpZCBTZXJ2ZXIgQ0EgMjAyMDAeFw0yMjA1MjUxMDQwMThaFw0yMjEyMDUwMDAwMDBaMIGUMR0wGwYDVQQFExQwMDAwMDAwMTAwNjAzMzQwNDAwMDELMAkGA1UEBhMCTkwxEDAOBgNVBAgMB1V0cmVjaHQxEDAOBgNVBAcMB1V0cmVjaHQxHTAbBgNVBAoMFEthbWVyIHZhbiBLb29waGFuZGVsMSMwIQYDVQQDDBp3ZWJzZXJ2aWNlcy5wcmVwcm9kLmt2ay5ubDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOlC12gBKvaTSDpzevzsfFeAckzzHDp91/1pCIoUHHtu1WjtqiCw6BKYqfjskVbTXYQtaeXB1fpij3rfGdr0GJVlBw/d7JohNxUwMgMZCCoN/Uolug13j+TGdMr74iYvCWrAm29O/3+cfL6ujI/LjQ7BH1R5IYMpHn9icNnwCysMxIRygPrTsrc9YMP1RvsD8gP8Kf0ZX5Znd2r1jtzmJR0BXyOPlNE2BWjJUOz8k1pjaSZn6apJ/Qlvn3NPXCIGP8wtenihNXLsYKYFSdSQ4UDNEAIxyRLIfmRz613f/6N3GQzHNrGskEMiU44FpGkQXjl2qfZmL4YuB7LkEOdbcHMCAwEAAaOCA+4wggPqMB8GA1UdIwQYMBaAFCK3PcBOZm9YqHOwEt//u9OOE5jnMIGLBggrBgEFBQcBAQR/MH0wTwYIKwYBBQUHMAKGQ2h0dHA6Ly90cnVzdC5xdW92YWRpc2dsb2JhbC5jb20vcXVvdmFkaXNwa2lvdmVyaGVpZHNlcnZlcmNhMjAyMC5jcnQwKgYIKwYBBQUHMAGGHmh0dHA6Ly9vY3NwLnF1b3ZhZGlzZ2xvYmFsLmNvbTBFBgNVHREEPjA8ghp3ZWJzZXJ2aWNlcy5wcmVwcm9kLmt2ay5ubIIed2Vic2VydmljZXMucHJlcHJvZC5vc2Iua3ZrLm5sMFoGA1UdIARTMFEwRQYKYIQQAYdrAQIFCTA3MDUGCCsGAQUFBwIBFilodHRwczovL3d3dy5xdW92YWRpc2dsb2JhbC5jb20vcmVwb3NpdG9yeTAIBgZngQwBAgIwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMFIGA1UdHwRLMEkwR6BFoEOGQWh0dHA6Ly9jcmwucXVvdmFkaXNnbG9iYWwuY29tL3F1b3ZhZGlzcGtpb3ZlcmhlaWRzZXJ2ZXJjYTIwMjAuY3JsMB0GA1UdDgQWBBQTY71vsdmbub1IrttLh+zNUme+1TAOBgNVHQ8BAf8EBAMCBaAwggHyBgorBgEEAdZ5AgQCBIIB4gSCAd4B3AB1ACl5vvCeOTkh8FZzn2Old+W+V32cYAr4+U1dJlwlXceEAAABgPrWvsUAAAQDAEYwRAIgDpBmC2R8z6380eCeWCfhjcxuT0hDY3zzexI3I1wSrLECIBZfYeRecOsTW2RnrKQ5VP1khOy32gHBLJgmS+t2ZaPHAHUARqVV63X6kSAwtaKJafTzfREsQXS+/Um4havy/HD+bUcAAAGA+ta+jwAABAMARjBEAiAkxSH1/mRn90vmA2xb4Lk6sRqxbvyLiH41s7/2sXXQQwIgKlFRZzngf2sUh39j0OY+ILR0ZF1LFCqa47DMAWGL2HcAdQBRo7D1/QF5nFZtuDd4jwykeswbJ8v3nohCmg3+1IsF5QAAAYD61r7AAAAEAwBGMEQCIBPII+lCRTRvcg7dKiVk5uOlTu0oiOSmON8xBc/PfjbiAiBp7XRVQNLj9y/CwZZmVNsFpoPeESAd1rznnHbekyF+UwB1AN+lXqtogk8fbK3uuF9OPlrqzaISpGpejjsSwCBEXCpzAAABgPrWvrsAAAQDAEYwRAIgE5u1jgboUCsxg/dwuYs0MNnMC+T7m9cUUA+a0845fF8CICmV0V/hhvnmazd1wbO6q0/a5qyQlqNDNh6RtUiyK7L0MA0GCSqGSIb3DQEBCwUAA4ICAQBugExYWmtUUNxm6uvedIYYl+g/a0KdYwgSxpORPDt7KBKop3kKwWW1h76ieknlMryMTYGnB4liorYmIOekUvXeb5Pg0/8KHFTUDBoL/keknPHBneE/KpQgaTPF5lzKNY9pjTTAYgB2l9uZ1lT2mlgVjx+VNNgtD6F4hmxqGXAJgAXTbtdU9FGik+BIqvI1c15X6L05RWEZk4M02jEU+U292Y9y8Fi7v2Kt8ZWWlMrb8H6A/PkugzdpIrYGmEkjWIqORacxNZAkMhzOSPlzQmlxBV59+ZsC/Gk2zbs8dpIgr3PEk2sRHqJ/cRkAUfkuiPROQLot7ysfWrBi+MmFHC+X8ab3rtj/dbvQNWw0gtGJha+AdwEo/g3hJHqZePq7JA2XEdBd3Y7aQo8C0VY7Uq9q4gZYZl0VfgI3JuarCppVgEm+InpxRC5tPDK9L8tuVfFVpTK+UDYxJPAXngGA0Edseu9fHv+hxbu8Hx1ZSj0Z0Vl2mMAwzorQUeSrI7X7bhhPSiUvcn+tPTRci8Ewph/SeLyG6pY/6a6U+Og9qJJioNytuxDgp7cQdIY210ncuhj2edoi+zX/qWsgGhg26kSuTG38ETKcRmXLrwr1Ng4lkYCFaRblZz+P2XNp3nWnyuHyqY/UiegAsf8LzmeaiVShUS8q67ZWRVNBKNNFbq0dVA==</wsse:BinarySecurityToken>
+      <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:SignedInfo>
+          <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+          <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+          <ds:Reference URI="#id-1-8ef08a21842d6fef4f6a6937f99fe170">
+            <ds:Transforms>
+              <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            </ds:Transforms>
+            <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+            <ds:DigestValue>zBqFTKu8WbdESDfhZd79Z6PBqpjIWuMI2XlbQp6spu8=</ds:DigestValue>
+          </ds:Reference>
+          <ds:Reference URI="#id-3-638585c4a2a035aa627f563c6e7e6792">
+            <ds:Transforms>
+              <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            </ds:Transforms>
+            <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+            <ds:DigestValue>gSjuAdPcLTIohykpgl4LJBPMYqsNZOe5d/QTrpB+IJQ=</ds:DigestValue>
+          </ds:Reference>
+          <ds:Reference URI="#id-2-fd1f501a01cb92027ea08ffb81ace7e8">
+            <ds:Transforms>
+              <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            </ds:Transforms>
+            <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+            <ds:DigestValue>eS9de+/ioRDRlZhg3/u2Iugs5QvY8nrNgEyVyPOFBk0=</ds:DigestValue>
+          </ds:Reference>
+          <ds:Reference URI="#id-0-2b5df52960a88bac135ee82ac6104573">
+            <ds:Transforms>
+              <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            </ds:Transforms>
+            <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+            <ds:DigestValue>TGVkSRmAMkRh5YBnnDnyXCJ8VHyb2057qkGPWUuL9aY=</ds:DigestValue>
+          </ds:Reference>
+          <ds:Reference URI="#id-1-4e13e4704551068dbf4dd8099975b149">
+            <ds:Transforms>
+              <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            </ds:Transforms>
+            <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+            <ds:DigestValue>M2etXToxyyJQAPrWwc0tYNmU5sl7/BAtJrJJOVaPkcE=</ds:DigestValue>
+          </ds:Reference>
+          <ds:Reference URI="#id-2-4ee944df37d50e4ac3446c5bae566fdd">
+            <ds:Transforms>
+              <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            </ds:Transforms>
+            <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+            <ds:DigestValue>RGuRvKYHQxukRefXtyZ80VbXXgAIZq5DLgFnQVathQI=</ds:DigestValue>
+          </ds:Reference>
+          <ds:Reference URI="#id-4-34f8798cfba978a09fc4174745a2be9c">
+            <ds:Transforms>
+              <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            </ds:Transforms>
+            <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+            <ds:DigestValue>1sHxAJ391sjo9leaXQxWSRjXULuXQAWxBM8Ow9nrv84=</ds:DigestValue>
+          </ds:Reference>
+          <ds:Reference URI="#id-0-34b18a418b3d3be5ef5fd973824866ef">
+            <ds:Transforms>
+              <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            </ds:Transforms>
+            <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+            <ds:DigestValue>Fx/KuxGYhxltqmzF6LlG3TDz019KeeN21LixAxFnOKc=</ds:DigestValue>
+          </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>F72FQNG8snKoQl7FLJEdhA1opIPPYCQZU5PjBMhMilGqP12/n1EdPgUfLesX7GTtHiPxOkMNNtBpmpRwpJLTUh8+B6J8wgaETnIOEH8txNKfokHKb8FjKIqd2nadtPeI/p+cr9/hS4uDXzeXKSYNLX53lbLS8G9Edl4ARaLRcJECfLcTkrJt0OtxC20KExnWIqDFfwgbcYX8/f8brSV5O3uoymTufaHFqW1Dl3mUuTMqTrH1xGirJgFdl1LvNWMv6tqMFnWGInrX8439YZNSUwQMAjyqnfxFt6DUi3YjdMbHn1XpQnmL9UoOvDnrHkUq4TGQdEFPLNwLhzr/Aw9l4A==</ds:SignatureValue>
+        <ds:KeyInfo>
+          <wsse:SecurityTokenReference xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
+            <wsse:Reference URI="#id-0-34b18a418b3d3be5ef5fd973824866ef" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3"/>
+          </wsse:SecurityTokenReference>
+        </ds:KeyInfo>
+      </ds:Signature>
+    </wsse:Security>
+    <wsa:Action wsu:Id="id-0-2b5df52960a88bac135ee82ac6104573"
+      xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">http://es.kvk.nl/ophalenInschrijvingResponse</wsa:Action>
+    <wsa:MessageID wsu:Id="id-1-4e13e4704551068dbf4dd8099975b149"
+      xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">uuid:a58f4af6-f7d6-4136-a2b8-284927fd947f</wsa:MessageID>
+    <wsa:To wsu:Id="id-2-4ee944df37d50e4ac3446c5bae566fdd"
+      xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">http://www.w3.org/2005/08/addressing/anonymous</wsa:To>
+    <wsa:From wsu:Id="id-3-638585c4a2a035aa627f563c6e7e6792"
+      xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+      <wsa:Address>http://es.kvk.nl/KVK-DataservicePP/2015/02</wsa:Address>
+      <wstxns3:ReferenceParameters xmlns:wstxns3="http://www.w3.org/2005/08/addressing">
+        <wstxns4:ResourceID xmlns:wstxns4="http://schemas.kvk.nl/schemas/kvk/HRIP-Dataservice">/inschrijving/kvknummer/90003234</wstxns4:ResourceID>
+      </wstxns3:ReferenceParameters>
+    </wsa:From>
+    <wsa:RelatesTo wsa:RelationshipType="http://www.w3.org/2005/08/addressing/reply" wsu:Id="id-4-34f8798cfba978a09fc4174745a2be9c"
+      xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">uuid:ab53749e-a61a-443e-8f71-44cc978a889c</wsa:RelatesTo>
+  </wstxns1:Header>
+  <wstxns8:Body wsu:Id="id-1-8ef08a21842d6fef4f6a6937f99fe170"
+    xmlns:wstxns8="http://schemas.xmlsoap.org/soap/envelope/"
+    xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
+    <ophalenInschrijvingResponse peilmoment="20200924122839746"
+      xmlns="http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02">
+      <meldingen xmlns="http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02">
+        <informatie>
+          <code>IPD0000</code>
+          <omschrijving>Het product is succesvol geproduceerd</omschrijving>
+          <referentie>90003234</referentie>
+        </informatie>
+      </meldingen>
+      <product xmlns="http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02">
+        <maatschappelijkeActiviteit xmlns="http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02">
+          <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+            <datumAanvang>19940914</datumAanvang>
+          </registratie>
+          <kvkNummer>90003234</kvkNummer>
+          <nonMailing>
+            <code>J</code>
+            <omschrijving>Ja</omschrijving>
+            <referentieType>geenRT</referentieType>
+          </nonMailing>
+          <incidenteelUitlenenArbeidskrachten>
+            <code>J</code>
+            <omschrijving>Ja</omschrijving>
+            <referentieType>geenRT</referentieType>
+          </incidenteelUitlenenArbeidskrachten>
+          <bezoekLocatie>
+            <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+              <datumAanvang>20020422</datumAanvang>
+            </registratie>
+            <afgeschermd>
+              <code>N</code>
+              <omschrijving>Nee</omschrijving>
+              <referentieType>geenRT</referentieType>
+            </afgeschermd>
+            <adres>
+              <binnenlandsAdres>
+                <straatnaam>De Gyselaar</straatnaam>
+                <huisnummer>36</huisnummer>
+                <postcode>
+                  <cijfercombinatie>6436</cijfercombinatie>
+                  <lettercombinatie>AX</lettercombinatie>
+                </postcode>
+                <plaats>Amstenrade</plaats>
+                <bagId>
+                  <identificatieNummeraanduiding>0074999999904988</identificatieNummeraanduiding>
+                  <identificatieAdresseerbaarObject>0074999999901463</identificatieAdresseerbaarObject>
+                </bagId>
+              </binnenlandsAdres>
+            </adres>
+            <volledigAdres>De Gyselaar 36 6436AX Amstenrade</volledigAdres>
+          </bezoekLocatie>
+          <postLocatie>
+            <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+              <datumAanvang>19940914</datumAanvang>
+            </registratie>
+            <afgeschermd>
+              <code>N</code>
+              <omschrijving>Nee</omschrijving>
+              <referentieType>geenRT</referentieType>
+            </afgeschermd>
+            <adres>
+              <binnenlandsAdres>
+                <postbusnummer>99999</postbusnummer>
+                <postcode>
+                  <cijfercombinatie>8076</cijfercombinatie>
+                  <lettercombinatie>PN</lettercombinatie>
+                </postcode>
+                <plaats>Vierhouten</plaats>
+              </binnenlandsAdres>
+            </adres>
+            <volledigAdres>Postbus 99999 8076PN Vierhouten</volledigAdres>
+          </postLocatie>
+          <communicatiegegevens>
+            <registratie registratieTijdstip="20150522140953417">
+              <datumAanvang>20150101</datumAanvang>
+            </registratie>
+            <communicatienummer>
+              <toegangscode>+31</toegangscode>
+              <nummer>0209999999</nummer>
+              <soort>
+                <code>T</code>
+                <omschrijving>Telefoon</omschrijving>
+              </soort>
+            </communicatienummer>
+            <communicatienummer>
+              <toegangscode>+31</toegangscode>
+              <nummer>0209999999</nummer>
+              <soort>
+                <code>F</code>
+                <omschrijving>Fax</omschrijving>
+              </soort>
+            </communicatienummer>
+            <emailAdres>nepemailadres@kvk.nl</emailAdres>
+            <domeinNaam>www.kvk.nl</domeinNaam>
+          </communicatiegegevens>
+          <naam>International Linetone</naam>
+          <manifesteertZichAls>
+            <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+              <datumAanvang>19940914</datumAanvang>
+            </relatieRegistratie>
+            <onderneming>
+              <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                <datumAanvang>19940914</datumAanvang>
+              </registratie>
+              <kvkNummer>90003234</kvkNummer>
+              <sbiActiviteit>
+                <registratie registratieTijdstip="20140523142711183">
+                  <datumAanvang>20140523</datumAanvang>
+                </registratie>
+                <sbiCode>
+                  <code>6420</code>
+                  <omschrijving>Financiële holdings</omschrijving>
+                  <referentieType>ActiviteitCode</referentieType>
+                </sbiCode>
+                <isHoofdactiviteit>
+                  <code>J</code>
+                  <omschrijving>Ja</omschrijving>
+                  <referentieType>geenRT</referentieType>
+                </isHoofdactiviteit>
+              </sbiActiviteit>
+              <voltijdWerkzamePersonen>28</voltijdWerkzamePersonen>
+              <deeltijdWerkzamePersonen>0</deeltijdWerkzamePersonen>
+              <totaalWerkzamePersonen>28</totaalWerkzamePersonen>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstip="20141229074511741">
+                    <datumAanvang>20141223</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V.</naam>
+                  <volgorde>0</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de tweede</naam>
+                  <volgorde>1</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de derde</naam>
+                  <volgorde>2</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de vierde</naam>
+                  <volgorde>3</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de vijfde</naam>
+                  <volgorde>4</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zesde</naam>
+                  <volgorde>5</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zevende</naam>
+                  <volgorde>6</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de achtste</naam>
+                  <volgorde>7</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de negende</naam>
+                  <volgorde>8</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de tiende</naam>
+                  <volgorde>9</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de elfde</naam>
+                  <volgorde>10</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de twaalfde</naam>
+                  <volgorde>11</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de dertiende</naam>
+                  <volgorde>12</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de veertiende</naam>
+                  <volgorde>13</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de vijftiende</naam>
+                  <volgorde>14</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zestiende</naam>
+                  <volgorde>15</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zeventiende</naam>
+                  <volgorde>16</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de achtiende</naam>
+                  <volgorde>17</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de negentiende</naam>
+                  <volgorde>18</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de twintigste</naam>
+                  <volgorde>19</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zoveelste</naam>
+                  <volgorde>20</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zoveelste</naam>
+                  <volgorde>21</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zoveelste</naam>
+                  <volgorde>22</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zoveelste</naam>
+                  <volgorde>23</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zoveelste</naam>
+                  <volgorde>24</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zoveelste</naam>
+                  <volgorde>25</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20090414</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zoveelste</naam>
+                  <volgorde>26</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstip="20130813121416727">
+                    <datumAanvang>20130812</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zoveelste</naam>
+                  <volgorde>27</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstip="20140818110515399">
+                    <datumAanvang>20140813</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zoveelste</naam>
+                  <volgorde>28</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <handelsnaam>
+                  <registratie registratieTijdstip="20141231102654912">
+                    <datumAanvang>20141223</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zoveelste</naam>
+                  <volgorde>29</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <wordtUitgeoefendIn>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>19940914</datumAanvang>
+                </relatieRegistratie>
+                <commercieleVestiging>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>19940914</datumAanvang>
+                  </registratie>
+                  <vestigingsnummer>990000977556</vestigingsnummer>
+                  <bezoekLocatie>
+                    <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20020422</datumAanvang>
+                    </registratie>
+                    <afgeschermd>
+                      <code>N</code>
+                      <omschrijving>Nee</omschrijving>
+                      <referentieType>geenRT</referentieType>
+                    </afgeschermd>
+                    <adres>
+                      <binnenlandsAdres>
+                        <straatnaam>De Gyselaar</straatnaam>
+                        <huisnummer>36</huisnummer>
+                        <postcode>
+                          <cijfercombinatie>6436</cijfercombinatie>
+                          <lettercombinatie>AX</lettercombinatie>
+                        </postcode>
+                        <plaats>Amstenrade</plaats>
+                        <bagId>
+                          <identificatieNummeraanduiding>0074999999904988</identificatieNummeraanduiding>
+                          <identificatieAdresseerbaarObject>0074999999901463</identificatieAdresseerbaarObject>
+                        </bagId>
+                      </binnenlandsAdres>
+                    </adres>
+                    <volledigAdres>De Gyselaar 36 6436AX Amstenrade</volledigAdres>
+                  </bezoekLocatie>
+                  <postLocatie>
+                    <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>19940914</datumAanvang>
+                    </registratie>
+                    <afgeschermd>
+                      <code>N</code>
+                      <omschrijving>Nee</omschrijving>
+                      <referentieType>geenRT</referentieType>
+                    </afgeschermd>
+                    <adres>
+                      <binnenlandsAdres>
+                        <postbusnummer>99999</postbusnummer>
+                        <postcode>
+                          <cijfercombinatie>8076</cijfercombinatie>
+                          <lettercombinatie>PN</lettercombinatie>
+                        </postcode>
+                        <plaats>Vierhouten</plaats>
+                      </binnenlandsAdres>
+                    </adres>
+                    <volledigAdres>Postbus 99999 8076PN Vierhouten</volledigAdres>
+                  </postLocatie>
+                  <communicatiegegevens>
+                    <registratie registratieTijdstip="20150522140953417">
+                      <datumAanvang>20150101</datumAanvang>
+                    </registratie>
+                    <communicatienummer>
+                      <toegangscode>+31</toegangscode>
+                      <nummer>0209999999</nummer>
+                      <soort>
+                        <code>T</code>
+                        <omschrijving>Telefoon</omschrijving>
+                      </soort>
+                    </communicatienummer>
+                    <communicatienummer>
+                      <toegangscode>+31</toegangscode>
+                      <nummer>0209999999</nummer>
+                      <soort>
+                        <code>F</code>
+                        <omschrijving>Fax</omschrijving>
+                      </soort>
+                    </communicatienummer>
+                    <emailAdres>nepemailadres@kvk.nl</emailAdres>
+                    <domeinNaam>www.kvk.nl</domeinNaam>
+                  </communicatiegegevens>
+                  <eersteHandelsnaam>International Linetone B.V.</eersteHandelsnaam>
+                  <voltijdWerkzamePersonen>28</voltijdWerkzamePersonen>
+                  <deeltijdWerkzamePersonen>0</deeltijdWerkzamePersonen>
+                  <totaalWerkzamePersonen>28</totaalWerkzamePersonen>
+                  <activiteiten>
+                    <omschrijving>Trustmaatschappij alsmede het verlenen van administratieve en management diensten.</omschrijving>
+                    <sbiActiviteit>
+                      <registratie registratieTijdstip="20140523142711183">
+                        <datumAanvang>20140523</datumAanvang>
+                      </registratie>
+                      <sbiCode>
+                        <code>6420</code>
+                        <omschrijving>Financiële holdings</omschrijving>
+                        <referentieType>ActiviteitCode</referentieType>
+                      </sbiCode>
+                      <isHoofdactiviteit>
+                        <code>J</code>
+                        <omschrijving>Ja</omschrijving>
+                        <referentieType>geenRT</referentieType>
+                      </isHoofdactiviteit>
+                    </sbiActiviteit>
+                    <exporteert>
+                      <code>N</code>
+                      <omschrijving>Nee</omschrijving>
+                      <referentieType>geenRT</referentieType>
+                    </exporteert>
+                    <importeert>
+                      <code>N</code>
+                      <omschrijving>Nee</omschrijving>
+                      <referentieType>geenRT</referentieType>
+                    </importeert>
+                  </activiteiten>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstip="20141229074511741">
+                      <datumAanvang>20141223</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstip="20141229074511741">
+                        <datumAanvang>20141223</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V.</naam>
+                      <volgorde>0</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20080805</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20080805</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de tweede</naam>
+                      <volgorde>1</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20080805</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20080805</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de derde</naam>
+                      <volgorde>2</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20080805</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20080805</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de vierde</naam>
+                      <volgorde>3</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20080805</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20080805</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de vijfde</naam>
+                      <volgorde>4</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20080805</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20080805</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de zesde</naam>
+                      <volgorde>5</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20080805</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20080805</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de zevende</naam>
+                      <volgorde>6</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20080805</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20080805</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de achtste</naam>
+                      <volgorde>7</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20080805</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20080805</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de negende</naam>
+                      <volgorde>8</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20080805</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20080805</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de tiende</naam>
+                      <volgorde>9</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20080805</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20080805</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de elfde</naam>
+                      <volgorde>10</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20080805</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20080805</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de twaalfde</naam>
+                      <volgorde>11</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20080805</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20080805</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de dertiende</naam>
+                      <volgorde>12</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20081215</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20081215</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de veertiende</naam>
+                      <volgorde>13</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20081215</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20081215</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de vijftiende</naam>
+                      <volgorde>14</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20081215</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20081215</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de zestiende</naam>
+                      <volgorde>15</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20081215</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20081215</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de zeventiende</naam>
+                      <volgorde>16</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20081215</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20081215</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de achtiende</naam>
+                      <volgorde>17</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20081215</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20081215</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de negentiende</naam>
+                      <volgorde>18</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20081215</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20081215</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de twintigste</naam>
+                      <volgorde>19</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20081215</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20081215</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de zoveelste</naam>
+                      <volgorde>20</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20081215</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20081215</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de zoveelste</naam>
+                      <volgorde>21</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20081215</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20081215</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de zoveelste</naam>
+                      <volgorde>22</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20081215</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20081215</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de zoveelste</naam>
+                      <volgorde>23</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20081215</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20081215</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de zoveelste</naam>
+                      <volgorde>24</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20081215</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20081215</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de zoveelste</naam>
+                      <volgorde>25</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20090414</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>20090414</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de zoveelste</naam>
+                      <volgorde>26</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstip="20130813121416727">
+                      <datumAanvang>20130812</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstip="20130813121416727">
+                        <datumAanvang>20130812</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de zoveelste</naam>
+                      <volgorde>27</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstip="20140818110515399">
+                      <datumAanvang>20140813</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstip="20140818110515399">
+                        <datumAanvang>20140813</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de zoveelste</naam>
+                      <volgorde>28</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                  <handeltOnder>
+                    <relatieRegistratie registratieTijdstip="20141231102654912">
+                      <datumAanvang>20141223</datumAanvang>
+                    </relatieRegistratie>
+                    <handelsnaam>
+                      <registratie registratieTijdstip="20141231102654912">
+                        <datumAanvang>20141223</datumAanvang>
+                      </registratie>
+                      <naam>International Linetone B.V. de zoveelste</naam>
+                      <volgorde>29</volgorde>
+                    </handelsnaam>
+                  </handeltOnder>
+                </commercieleVestiging>
+              </wordtUitgeoefendIn>
+            </onderneming>
+          </manifesteertZichAls>
+          <wordtGeleidVanuit>
+            <commercieleVestiging>
+              <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                <datumAanvang>19940914</datumAanvang>
+              </registratie>
+              <vestigingsnummer>990000977556</vestigingsnummer>
+              <bezoekLocatie>
+                <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20020422</datumAanvang>
+                </registratie>
+                <afgeschermd>
+                  <code>N</code>
+                  <omschrijving>Nee</omschrijving>
+                  <referentieType>geenRT</referentieType>
+                </afgeschermd>
+                <adres>
+                  <binnenlandsAdres>
+                    <straatnaam>De Gyselaar</straatnaam>
+                    <huisnummer>36</huisnummer>
+                    <postcode>
+                      <cijfercombinatie>6436</cijfercombinatie>
+                      <lettercombinatie>AX</lettercombinatie>
+                    </postcode>
+                    <plaats>Amstenrade</plaats>
+                    <bagId>
+                      <identificatieNummeraanduiding>0074999999904988</identificatieNummeraanduiding>
+                      <identificatieAdresseerbaarObject>0074999999901463</identificatieAdresseerbaarObject>
+                    </bagId>
+                  </binnenlandsAdres>
+                </adres>
+                <volledigAdres>De Gyselaar 36 6436AX Amstenrade</volledigAdres>
+              </bezoekLocatie>
+              <postLocatie>
+                <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>19940914</datumAanvang>
+                </registratie>
+                <afgeschermd>
+                  <code>N</code>
+                  <omschrijving>Nee</omschrijving>
+                  <referentieType>geenRT</referentieType>
+                </afgeschermd>
+                <adres>
+                  <binnenlandsAdres>
+                    <postbusnummer>99999</postbusnummer>
+                    <postcode>
+                      <cijfercombinatie>8076</cijfercombinatie>
+                      <lettercombinatie>PN</lettercombinatie>
+                    </postcode>
+                    <plaats>Vierhouten</plaats>
+                  </binnenlandsAdres>
+                </adres>
+                <volledigAdres>Postbus 99999 8076PN Vierhouten</volledigAdres>
+              </postLocatie>
+              <communicatiegegevens>
+                <registratie registratieTijdstip="20150522140953417">
+                  <datumAanvang>20150101</datumAanvang>
+                </registratie>
+                <communicatienummer>
+                  <toegangscode>+31</toegangscode>
+                  <nummer>0209999999</nummer>
+                  <soort>
+                    <code>T</code>
+                    <omschrijving>Telefoon</omschrijving>
+                  </soort>
+                </communicatienummer>
+                <communicatienummer>
+                  <toegangscode>+31</toegangscode>
+                  <nummer>0209999999</nummer>
+                  <soort>
+                    <code>F</code>
+                    <omschrijving>Fax</omschrijving>
+                  </soort>
+                </communicatienummer>
+                <emailAdres>nepemailadres@kvk.nl</emailAdres>
+                <domeinNaam>www.kvk.nl</domeinNaam>
+              </communicatiegegevens>
+              <eersteHandelsnaam>International Linetone B.V.</eersteHandelsnaam>
+              <voltijdWerkzamePersonen>28</voltijdWerkzamePersonen>
+              <deeltijdWerkzamePersonen>0</deeltijdWerkzamePersonen>
+              <totaalWerkzamePersonen>28</totaalWerkzamePersonen>
+              <activiteiten>
+                <omschrijving>Trustmaatschappij alsmede het verlenen van administratieve en management diensten.</omschrijving>
+                <sbiActiviteit>
+                  <registratie registratieTijdstip="20140523142711183">
+                    <datumAanvang>20140523</datumAanvang>
+                  </registratie>
+                  <sbiCode>
+                    <code>6420</code>
+                    <omschrijving>Financiële holdings</omschrijving>
+                    <referentieType>ActiviteitCode</referentieType>
+                  </sbiCode>
+                  <isHoofdactiviteit>
+                    <code>J</code>
+                    <omschrijving>Ja</omschrijving>
+                    <referentieType>geenRT</referentieType>
+                  </isHoofdactiviteit>
+                </sbiActiviteit>
+                <exporteert>
+                  <code>N</code>
+                  <omschrijving>Nee</omschrijving>
+                  <referentieType>geenRT</referentieType>
+                </exporteert>
+                <importeert>
+                  <code>N</code>
+                  <omschrijving>Nee</omschrijving>
+                  <referentieType>geenRT</referentieType>
+                </importeert>
+              </activiteiten>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstip="20141229074511741">
+                  <datumAanvang>20141223</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstip="20141229074511741">
+                    <datumAanvang>20141223</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V.</naam>
+                  <volgorde>0</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20080805</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de tweede</naam>
+                  <volgorde>1</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20080805</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de derde</naam>
+                  <volgorde>2</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20080805</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de vierde</naam>
+                  <volgorde>3</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20080805</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de vijfde</naam>
+                  <volgorde>4</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20080805</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zesde</naam>
+                  <volgorde>5</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20080805</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zevende</naam>
+                  <volgorde>6</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20080805</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de achtste</naam>
+                  <volgorde>7</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20080805</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de negende</naam>
+                  <volgorde>8</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20080805</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de tiende</naam>
+                  <volgorde>9</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20080805</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de elfde</naam>
+                  <volgorde>10</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20080805</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de twaalfde</naam>
+                  <volgorde>11</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20080805</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080805</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de dertiende</naam>
+                  <volgorde>12</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20081215</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de veertiende</naam>
+                  <volgorde>13</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20081215</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de vijftiende</naam>
+                  <volgorde>14</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20081215</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zestiende</naam>
+                  <volgorde>15</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20081215</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zeventiende</naam>
+                  <volgorde>16</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20081215</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de achtiende</naam>
+                  <volgorde>17</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20081215</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de negentiende</naam>
+                  <volgorde>18</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20081215</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de twintigste</naam>
+                  <volgorde>19</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20081215</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zoveelste</naam>
+                  <volgorde>20</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20081215</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zoveelste</naam>
+                  <volgorde>21</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20081215</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zoveelste</naam>
+                  <volgorde>22</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20081215</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zoveelste</naam>
+                  <volgorde>23</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20081215</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zoveelste</naam>
+                  <volgorde>24</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20081215</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20081215</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zoveelste</naam>
+                  <volgorde>25</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20090414</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20090414</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zoveelste</naam>
+                  <volgorde>26</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstip="20130813121416727">
+                  <datumAanvang>20130812</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstip="20130813121416727">
+                    <datumAanvang>20130812</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zoveelste</naam>
+                  <volgorde>27</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstip="20140818110515399">
+                  <datumAanvang>20140813</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstip="20140818110515399">
+                    <datumAanvang>20140813</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zoveelste</naam>
+                  <volgorde>28</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+              <handeltOnder>
+                <relatieRegistratie registratieTijdstip="20141231102654912">
+                  <datumAanvang>20141223</datumAanvang>
+                </relatieRegistratie>
+                <handelsnaam>
+                  <registratie registratieTijdstip="20141231102654912">
+                    <datumAanvang>20141223</datumAanvang>
+                  </registratie>
+                  <naam>International Linetone B.V. de zoveelste</naam>
+                  <volgorde>29</volgorde>
+                </handelsnaam>
+              </handeltOnder>
+            </commercieleVestiging>
+          </wordtGeleidVanuit>
+          <heeftAlsEigenaar>
+            <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+              <datumAanvang>19940914</datumAanvang>
+            </relatieRegistratie>
+            <rechtspersoon>
+              <extraElementen>
+                <extraElement naam="datumAanvangStatuten">20141223</extraElement>
+                <extraElement naam="datumAkteStatuten">20141223</extraElement>
+              </extraElementen>
+              <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                <datumAanvang>19940914</datumAanvang>
+              </registratie>
+              <persoonRechtsvorm>Besloten Vennootschap</persoonRechtsvorm>
+              <volledigeNaam>International Linetone B.V.</volledigeNaam>
+              <uitgebreideRechtsvorm>Besloten Vennootschap</uitgebreideRechtsvorm>
+              <heeft>
+                <overigeFunctionaris>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>20080130</datumAanvang>
+                  </registratie>
+                  <door>
+                    <rechtspersoon>
+                      <persoonRechtsvorm>Besloten Vennootschap</persoonRechtsvorm>
+                      <volledigeNaam>Local Sil-technology B.V.</volledigeNaam>
+                      <bezoekLocatiePersoon>
+                        <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                          <datumAanvang>20080110</datumAanvang>
+                        </registratie>
+                        <afgeschermd>
+                          <code>N</code>
+                          <omschrijving>Nee</omschrijving>
+                          <referentieType>geenRT</referentieType>
+                        </afgeschermd>
+                        <adres>
+                          <binnenlandsAdres>
+                            <straatnaam>De Gyselaar</straatnaam>
+                            <huisnummer>36</huisnummer>
+                            <postcode>
+                              <cijfercombinatie>6436</cijfercombinatie>
+                              <lettercombinatie>AX</lettercombinatie>
+                            </postcode>
+                            <plaats>Amstenrade</plaats>
+                            <bagId>
+                              <identificatieNummeraanduiding>0074999999904988</identificatieNummeraanduiding>
+                              <identificatieAdresseerbaarObject>0074999999901463</identificatieAdresseerbaarObject>
+                            </bagId>
+                          </binnenlandsAdres>
+                        </adres>
+                        <volledigAdres>De Gyselaar 36 6436AX Amstenrade</volledigAdres>
+                      </bezoekLocatiePersoon>
+                      <isEigenaarVan>
+                        <maatschappelijkeActiviteit>
+                          <kvkNummer>90000528</kvkNummer>
+                          <nonMailing>
+                            <code>N</code>
+                            <omschrijving>Nee</omschrijving>
+                            <referentieType>geenRT</referentieType>
+                          </nonMailing>
+                        </maatschappelijkeActiviteit>
+                      </isEigenaarVan>
+                      <rsin>992598989</rsin>
+                    </rechtspersoon>
+                  </door>
+                  <functie>
+                    <code>08</code>
+                    <omschrijving>Enig aandeelhouder</omschrijving>
+                    <referentieType>FunctionarisRol</referentieType>
+                  </functie>
+                </overigeFunctionaris>
+              </heeft>
+              <heeft>
+                <gemachtigde>
+                  <registratie registratieTijdstip="20131118100607121">
+                    <datumAanvang>20131115</datumAanvang>
+                  </registratie>
+                  <functietitel>
+                    <registratie registratieTijdstip="20131118100607121">
+                      <datumAanvang>20131115</datumAanvang>
+                    </registratie>
+                    <titel>Procuratiehouder A</titel>
+                    <isStatutaireTitel>
+                      <code>N</code>
+                      <omschrijving>Nee</omschrijving>
+                      <referentieType>geenRT</referentieType>
+                    </isStatutaireTitel>
+                  </functietitel>
+                  <door>
+                    <natuurlijkPersoon>
+                      <extraElementen>
+                        <extraElement naam="achternaam">Holding</extraElement>
+                      </extraElementen>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>19570416</datumAanvang>
+                      </registratie>
+                      <volledigeNaam>Noncie Holding</volledigeNaam>
+                      <geslachtsnaam>Holding</geslachtsnaam>
+                      <voornamen>Noncie</voornamen>
+                      <geboortedatum>19570416</geboortedatum>
+                    </natuurlijkPersoon>
+                  </door>
+                  <functie>
+                    <code>01</code>
+                    <omschrijving>Gevolmachtigde</omschrijving>
+                    <referentieType>FunctionarisRol</referentieType>
+                  </functie>
+                  <volmacht>
+                    <registratie registratieTijdstip="20131118150434646">
+                      <datumAanvang>20131115</datumAanvang>
+                    </registratie>
+                    <typeVolmacht>
+                      <code>v</code>
+                      <omschrijving>Volledige volmacht</omschrijving>
+                      <referentieType>VolmachtType</referentieType>
+                    </typeVolmacht>
+                    <isStatutair>
+                      <code>N</code>
+                      <omschrijving>Nee</omschrijving>
+                      <referentieType>geenRT</referentieType>
+                    </isStatutair>
+                   
+                  </volmacht>
+                </gemachtigde>
+              </heeft>
+              <heeft>
+                <gemachtigde>
+                  <registratie registratieTijdstip="20131118100607121">
+                    <datumAanvang>20131115</datumAanvang>
+                  </registratie>
+                  <functietitel>
+                    <registratie registratieTijdstip="20131118100607121">
+                      <datumAanvang>20131115</datumAanvang>
+                    </registratie>
+                    <titel>Procuratiehouder B</titel>
+                    <isStatutaireTitel>
+                      <code>N</code>
+                      <omschrijving>Nee</omschrijving>
+                      <referentieType>geenRT</referentieType>
+                    </isStatutaireTitel>
+                  </functietitel>
+                  <door>
+                    <natuurlijkPersoon>
+                      <extraElementen>
+                        <extraElement naam="voorvoegsel">van</extraElement>
+                        <extraElement naam="achternaam">Boese</extraElement>
+                      </extraElementen>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>19541205</datumAanvang>
+                      </registratie>
+                      <volledigeNaam>Cierra Boese</volledigeNaam>
+                      <geslachtsnaam>Boese</geslachtsnaam>
+                      <voorvoegselGeslachtsnaam>van</voorvoegselGeslachtsnaam>
+                      <voornamen>Cierra</voornamen>
+                      <geboortedatum>19541205</geboortedatum>
+                    </natuurlijkPersoon>
+                  </door>
+                  <functie>
+                    <code>01</code>
+                    <omschrijving>Gevolmachtigde</omschrijving>
+                    <referentieType>FunctionarisRol</referentieType>
+                  </functie>
+                  <volmacht>
+                    <registratie registratieTijdstip="20131118150434646">
+                      <datumAanvang>20131115</datumAanvang>
+                    </registratie>
+                    <typeVolmacht>
+                      <code>b</code>
+                      <omschrijving>Beperkte volmacht</omschrijving>
+                      <referentieType>VolmachtType</referentieType>
+                    </typeVolmacht>
+                    <isStatutair>
+                      <code>N</code>
+                      <omschrijving>Nee</omschrijving>
+                      <referentieType>geenRT</referentieType>
+                    </isStatutair>
+                    <beperkteVolmacht>
+                      <magOpgaveHandelsregisterDoen>
+                        <code>N</code>
+                        <omschrijving>Nee</omschrijving>
+                        <referentieType>geenRT</referentieType>
+                      </magOpgaveHandelsregisterDoen>
+                      <heeftOverigeVolmacht>
+                        <code>J</code>
+                        <omschrijving>Ja</omschrijving>
+                        <referentieType>geenRT</referentieType>
+                      </heeftOverigeVolmacht>
+                      <omschrijvingOverigeVolmacht>Gezamenlijk bevoegd met een directeur of een procuratiehouder A, mede omvattende de bevoegdheid om deze vertegenwoordigingsbevoegdheid door te geven aan een andere procuratiehouder of directeur of een derde, mits de indeplaatsstelling geschiedt na voldoende beraadslaging en met betrekking tot een concreet doel of concrete transactie</omschrijvingOverigeVolmacht>
+                    </beperkteVolmacht>
+                  </volmacht>
+                </gemachtigde>
+              </heeft>
+              <heeft>
+                <gemachtigde>
+                  <registratie registratieTijdstip="20131121092224766">
+                    <datumAanvang>20131115</datumAanvang>
+                  </registratie>
+                  <functietitel>
+                    <registratie registratieTijdstip="20131121092224766">
+                      <datumAanvang>20131115</datumAanvang>
+                    </registratie>
+                    <titel>Procuratiehouder A</titel>
+                    <isStatutaireTitel>
+                      <code>N</code>
+                      <omschrijving>Nee</omschrijving>
+                      <referentieType>geenRT</referentieType>
+                    </isStatutaireTitel>
+                  </functietitel>
+                  <door>
+                    <natuurlijkPersoon>
+                      <extraElementen>
+                        <extraElement naam="achternaam">Courser</extraElement>
+                      </extraElementen>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>19400909</datumAanvang>
+                      </registratie>
+                      <volledigeNaam>Alice Courser</volledigeNaam>
+                      <geslachtsnaam>Courser</geslachtsnaam>
+                      <voornamen>Alice</voornamen>
+                      <geboortedatum>19400909</geboortedatum>
+                    </natuurlijkPersoon>
+                  </door>
+                  <functie>
+                    <code>01</code>
+                    <omschrijving>Gevolmachtigde</omschrijving>
+                    <referentieType>FunctionarisRol</referentieType>
+                  </functie>
+                  <volmacht>
+                    <registratie registratieTijdstip="20131121092224766">
+                      <datumAanvang>20131115</datumAanvang>
+                    </registratie>
+                    <typeVolmacht>
+                      <code>b</code>
+                      <omschrijving>Beperkte volmacht</omschrijving>
+                      <referentieType>VolmachtType</referentieType>
+                    </typeVolmacht>
+                    <isStatutair>
+                      <code>N</code>
+                      <omschrijving>Nee</omschrijving>
+                      <referentieType>geenRT</referentieType>
+                    </isStatutair>
+                    <beperkteVolmacht>
+                      <magOpgaveHandelsregisterDoen>
+                        <code>N</code>
+                        <omschrijving>Nee</omschrijving>
+                        <referentieType>geenRT</referentieType>
+                      </magOpgaveHandelsregisterDoen>
+                      <heeftOverigeVolmacht>
+                        <code>J</code>
+                        <omschrijving>Ja</omschrijving>
+                        <referentieType>geenRT</referentieType>
+                      </heeftOverigeVolmacht>
+                      <omschrijvingOverigeVolmacht>Gezamenlijk bevoegd met een directeur, een procuratiehouder A of een procuratiehouder B, mede omvattende de bevoegdheid om deze vertegenwoordigingsbevoegdheid door te geven aan een andere procuratiehouder of directeur of een derde, mits de indeplaatsstelling geschiedt na voldoende beraadslaging en met betrekking tot een concreet doel of concrete transactie.                                .</omschrijvingOverigeVolmacht>
+                    </beperkteVolmacht>
+                  </volmacht>
+                </gemachtigde>
+              </heeft>
+              <heeft>
+                <gemachtigde>
+                  <registratie registratieTijdstip="20131121092224766">
+                    <datumAanvang>20131115</datumAanvang>
+                  </registratie>
+                  <functietitel>
+                    <registratie registratieTijdstip="20131121092224766">
+                      <datumAanvang>20131115</datumAanvang>
+                    </registratie>
+                    <titel>Procuratiehouder A</titel>
+                    <isStatutaireTitel>
+                      <code>N</code>
+                      <omschrijving>Nee</omschrijving>
+                      <referentieType>geenRT</referentieType>
+                    </isStatutaireTitel>
+                  </functietitel>
+                  <door>
+                    <natuurlijkPersoon>
+                      <extraElementen>
+                        <extraElement naam="achternaam">Tuner</extraElement>
+                      </extraElementen>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>19830904</datumAanvang>
+                      </registratie>
+                      <volledigeNaam>Christeen Tuner</volledigeNaam>
+                      <geslachtsnaam>Tuner</geslachtsnaam>
+                      <voornamen>Christeen</voornamen>
+                      <geboortedatum>19830904</geboortedatum>
+                    </natuurlijkPersoon>
+                  </door>
+                  <functie>
+                    <code>01</code>
+                    <omschrijving>Gevolmachtigde</omschrijving>
+                    <referentieType>FunctionarisRol</referentieType>
+                  </functie>
+                  <volmacht>
+                    <registratie registratieTijdstip="20131121092224766">
+                      <datumAanvang>20131115</datumAanvang>
+                    </registratie>
+                    <typeVolmacht>
+                      <code>b</code>
+                      <omschrijving>Beperkte volmacht</omschrijving>
+                      <referentieType>VolmachtType</referentieType>
+                    </typeVolmacht>
+                    <isStatutair>
+                      <code>N</code>
+                      <omschrijving>Nee</omschrijving>
+                      <referentieType>geenRT</referentieType>
+                    </isStatutair>
+                    <beperkteVolmacht>
+                      <magOpgaveHandelsregisterDoen>
+                        <code>N</code>
+                        <omschrijving>Nee</omschrijving>
+                        <referentieType>geenRT</referentieType>
+                      </magOpgaveHandelsregisterDoen>
+                      <heeftOverigeVolmacht>
+                        <code>J</code>
+                        <omschrijving>Ja</omschrijving>
+                        <referentieType>geenRT</referentieType>
+                      </heeftOverigeVolmacht>
+                      <omschrijvingOverigeVolmacht>Gezamenlijk bevoegd met een directeur, een procuratiehouder A of een procuratiehouder B, mede omvattende de bevoegdheid om deze vertegenwoordigingsbevoegdheid door te geven aan een andere procuratiehouder of directeur of een derde, mits de indeplaatsstelling geschiedt na voldoende beraadslaging en met betrekking tot een concreet doel of concrete transactie.    </omschrijvingOverigeVolmacht>
+                    </beperkteVolmacht>
+                  </volmacht>
+                </gemachtigde>
+              </heeft>
+              <heeft>
+                <bestuursfunctie>
+                  <registratie registratieTijdstip="20131205093011543">
+                    <datumAanvang>20131203</datumAanvang>
+                  </registratie>
+                  <functietitel>
+                    <registratie registratieTijdstip="20141229074511741">
+                      <datumAanvang>20141223</datumAanvang>
+                    </registratie>
+                    <titel>Directeur A</titel>
+                    <isStatutaireTitel>
+                      <code>J</code>
+                      <omschrijving>Ja</omschrijving>
+                      <referentieType>geenRT</referentieType>
+                    </isStatutaireTitel>
+                  </functietitel>
+                  <door>
+                    <natuurlijkPersoon>
+                      <extraElementen>
+                        <extraElement naam="achternaam">Catanzaro - Catanzaro</extraElement>
+                      </extraElementen>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>19811207</datumAanvang>
+                      </registratie>
+                      <volledigeNaam>Arvilla Catanzaro</volledigeNaam>
+                      <geslachtsnaam>Catanzaro - Catanzaro</geslachtsnaam>
+                      <voornamen>Arvilla</voornamen>
+                      <geboortedatum>19811207</geboortedatum>
+                    </natuurlijkPersoon>
+                  </door>
+                  <functie>
+                    <code>02</code>
+                    <omschrijving>Bestuurder</omschrijving>
+                    <referentieType>FunctionarisRol</referentieType>
+                  </functie>
+                  <bevoegdheid>
+                    <registratie registratieTijdstip="20141002155153447">
+                      <datumAanvang>20141001</datumAanvang>
+                    </registratie>
+                    <soort>
+                      <code>gb</code>
+                      <omschrijving>Gezamenlijk bevoegd</omschrijving>
+                      <referentieType>SoortBevoegdheidBestuurder</referentieType>
+                    </soort>
+                    <isBevoegdMetAnderePersonen>
+                      <code>N</code>
+                      <omschrijving>Nee</omschrijving>
+                      <referentieType>geenRT</referentieType>
+                    </isBevoegdMetAnderePersonen>
+                  </bevoegdheid>
+                </bestuursfunctie>
+              </heeft>
+              <heeft>
+                <bestuursfunctie>
+                  <registratie registratieTijdstip="20141002155153447">
+                    <datumAanvang>20141001</datumAanvang>
+                  </registratie>
+                  <functietitel>
+                    <registratie registratieTijdstip="20141229074511741">
+                      <datumAanvang>20141223</datumAanvang>
+                    </registratie>
+                    <titel>Directeur B</titel>
+                    <isStatutaireTitel>
+                      <code>J</code>
+                      <omschrijving>Ja</omschrijving>
+                      <referentieType>geenRT</referentieType>
+                    </isStatutaireTitel>
+                  </functietitel>
+                  <door>
+                    <natuurlijkPersoon>
+                      <extraElementen>
+                        <extraElement naam="achternaam">Hixon</extraElement>
+                      </extraElementen>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>19930514</datumAanvang>
+                      </registratie>
+                      <volledigeNaam>Pamelia Hixon</volledigeNaam>
+                      <geslachtsnaam>Hixon</geslachtsnaam>
+                      <voornamen>Pamelia</voornamen>
+                      <geboortedatum>19930514</geboortedatum>
+                    </natuurlijkPersoon>
+                  </door>
+                  <functie>
+                    <code>02</code>
+                    <omschrijving>Bestuurder</omschrijving>
+                    <referentieType>FunctionarisRol</referentieType>
+                  </functie>
+                  <bevoegdheid>
+                    <registratie registratieTijdstip="20141002155153447">
+                      <datumAanvang>20141001</datumAanvang>
+                    </registratie>
+                    <soort>
+                      <code>gb</code>
+                      <omschrijving>Gezamenlijk bevoegd</omschrijving>
+                      <referentieType>SoortBevoegdheidBestuurder</referentieType>
+                    </soort>
+                    <isBevoegdMetAnderePersonen>
+                      <code>N</code>
+                      <omschrijving>Nee</omschrijving>
+                      <referentieType>geenRT</referentieType>
+                    </isBevoegdMetAnderePersonen>
+                  </bevoegdheid>
+                </bestuursfunctie>
+              </heeft>
+              <rsin>992143081</rsin>
+              <naamgeving>
+                <registratie registratieTijdstip="20141229074511741">
+                  <datumAanvang>20141223</datumAanvang>
+                </registratie>
+                <naam>International Linetone B.V.</naam>
+              </naamgeving>
+              <rechtsvorm>
+                <code>BV</code>
+                <omschrijving>Besloten Vennootschap</omschrijving>
+                <referentieType>Rechtsvorm</referentieType>
+              </rechtsvorm>
+              <statutaireZetel>Nepplaats</statutaireZetel>
+              <aanvangStatutaireZetel>19940914</aanvangStatutaireZetel>
+              <datumAkteOprichting>19940914</datumAkteOprichting>
+              <datumEersteInschrijvingHandelsregister>19941004</datumEersteInschrijvingHandelsregister>
+              <datumAkteStatutenwijziging>20141223</datumAkteStatutenwijziging>
+              <stelselInrichting>
+                <code>D</code>
+                <omschrijving>Dualistisch</omschrijving>
+                <referentieType>StelselInrichting</referentieType>
+              </stelselInrichting>
+              <structuur>
+                <code>GS</code>
+                <omschrijving>Gewone structuur</omschrijving>
+                <referentieType>RechtsvormStructuur</referentieType>
+              </structuur>
+              <geplaatstKapitaal>
+                <registratie registratieTijdstipNoValue="vastgesteldOnbekend"/>
+                <bedrag>
+                  <waarde>18400</waarde>
+                  <valuta>
+                    <code>EUR</code>
+                    <omschrijving>Euro</omschrijving>
+                    <referentieType>Valuta</referentieType>
+                  </valuta>
+                </bedrag>
+              </geplaatstKapitaal>
+              <gestortKapitaal>
+                <registratie registratieTijdstipNoValue="vastgesteldOnbekend"/>
+                <bedrag>
+                  <waarde>18400</waarde>
+                  <valuta>
+                    <code>EUR</code>
+                    <omschrijving>Euro</omschrijving>
+                    <referentieType>Valuta</referentieType>
+                  </valuta>
+                </bedrag>
+              </gestortKapitaal>
+              <bezoekLocatie>
+                <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20020422</datumAanvang>
+                </registratie>
+                <afgeschermd>
+                  <code>N</code>
+                  <omschrijving>Nee</omschrijving>
+                  <referentieType>geenRT</referentieType>
+                </afgeschermd>
+                <adres>
+                  <binnenlandsAdres>
+                    <straatnaam>De Gyselaar</straatnaam>
+                    <huisnummer>36</huisnummer>
+                    <postcode>
+                      <cijfercombinatie>6436</cijfercombinatie>
+                      <lettercombinatie>AX</lettercombinatie>
+                    </postcode>
+                    <plaats>Amstenrade</plaats>
+                    <bagId>
+                      <identificatieNummeraanduiding>0074999999904988</identificatieNummeraanduiding>
+                      <identificatieAdresseerbaarObject>0074999999901463</identificatieAdresseerbaarObject>
+                    </bagId>
+                  </binnenlandsAdres>
+                </adres>
+                <volledigAdres>De Gyselaar 36 6436AX Amstenrade</volledigAdres>
+              </bezoekLocatie>
+            </rechtspersoon>
+          </heeftAlsEigenaar>
+        </maatschappelijkeActiviteit>
+      </product>
+    </ophalenInschrijvingResponse>
+  </wstxns8:Body>
+</soap:Envelope>
