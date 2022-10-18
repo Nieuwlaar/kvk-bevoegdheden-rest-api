@@ -12,14 +12,12 @@ sh restart.sh
 ```
 This will run the API. You can remove the cert and key from restart script, the API will fallback on cached data. 
 
-You can request the only endpoint of the API with a POST request on http://localhost:3333/api/bevoegdheid with the following body:
+You can request the only endpoint of the API with a POST request on http://localhost:3333/api/bevoegdheid/<kvknummer> with the following body:
 ```
 {
-	"kvkNummer": "90000021",
-	"functionaris": {
-		"dateOfBirth": "14-12-1979",
-		"firstNames": "Kerry",
-		"lastName": "Rone"
-	}
+	"geboortedatum": "14-12-1979",
+	"voornamen": "Kerry",
+	"voorvoegselGeslachtsnaam":"van"
+	"geslachtsnaam": "Rone"
 }
 ```

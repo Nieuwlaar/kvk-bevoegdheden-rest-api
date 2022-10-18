@@ -4,98 +4,98 @@
     <wsse:Security soap:mustUnderstand="1"
       xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
       xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
-      <wsu:Timestamp wsu:Id="id-2-e45d530c509fe91f4a3095092cc2e557">
-        <wsu:Created>2022-06-15T15:53:27.064Z</wsu:Created>
-        <wsu:Expires>2022-06-15T15:58:27.064Z</wsu:Expires>
+      <wsu:Timestamp wsu:Id="id-2-f49f55340e6819b2b7892340c07621a3">
+        <wsu:Created>2022-10-06T14:47:38.924Z</wsu:Created>
+        <wsu:Expires>2022-10-06T14:52:38.924Z</wsu:Expires>
       </wsu:Timestamp>
-      <wsse:BinarySecurityToken EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" wsu:Id="id-0-4e88de0c7ae50bcc8b1d9d6e71942381"
+      <wsse:BinarySecurityToken EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" wsu:Id="id-0-4aea220a495eeaee763edd2141241a48"
         xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">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</wsse:BinarySecurityToken>
       <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
         <ds:SignedInfo>
           <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
           <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
-          <ds:Reference URI="#id-1-821091a7d6bffc21e03614215337abb4">
+          <ds:Reference URI="#id-1-5b6652eb28a93235e747ea3abce98bb8">
             <ds:Transforms>
               <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
             </ds:Transforms>
             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-            <ds:DigestValue>qG7YqC0r44deX7TRf3dcFHUoLQkD9n/YmJ8uhJj1KLs=</ds:DigestValue>
+            <ds:DigestValue>jfUZP1+9FRboCHWc+7w4LMVOhcle+NhGGpI8wWuydhk=</ds:DigestValue>
           </ds:Reference>
-          <ds:Reference URI="#id-3-d5a4fbff9a2b809f696f3c96d7875b4b">
+          <ds:Reference URI="#id-3-83773c9deb0eb1165272abf40c96f00a">
             <ds:Transforms>
               <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
             </ds:Transforms>
             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-            <ds:DigestValue>EihL9u+sfu+7vktOrh6jGBlo6asOiXBdKykzlFMMmYU=</ds:DigestValue>
+            <ds:DigestValue>HZvLqd/sYjfxoTbnWIg7KdrHis9xVCwEdSj35uF/n2o=</ds:DigestValue>
           </ds:Reference>
-          <ds:Reference URI="#id-2-e45d530c509fe91f4a3095092cc2e557">
+          <ds:Reference URI="#id-2-f49f55340e6819b2b7892340c07621a3">
             <ds:Transforms>
               <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
             </ds:Transforms>
             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-            <ds:DigestValue>QMouIfPeT0CdBi+YJrzM7VjvgDcoyzrCIAlKRjoo6AY=</ds:DigestValue>
+            <ds:DigestValue>QnV7eblCzUfPaNgVFiMRs1cYNqGpy4Twpv2dJIOB3Cs=</ds:DigestValue>
           </ds:Reference>
-          <ds:Reference URI="#id-0-d3fed638d58e8490a2530251e3425bc2">
+          <ds:Reference URI="#id-0-8dc2c219a855d4dfaba1175814812776">
             <ds:Transforms>
               <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
             </ds:Transforms>
             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-            <ds:DigestValue>y8EEA/DQm5sZnBmhNs7hA5fyttQ3XfgtRhhVidst8PY=</ds:DigestValue>
+            <ds:DigestValue>gsg07NFDBNHnNxTZo149EjqIvHf959kZJs/fLIBL5Oc=</ds:DigestValue>
           </ds:Reference>
-          <ds:Reference URI="#id-1-a8b6ca5610de9ac3df464c54f5752294">
+          <ds:Reference URI="#id-1-339540c0fde02448becbec1951180726">
             <ds:Transforms>
               <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
             </ds:Transforms>
             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-            <ds:DigestValue>Pdit18ae4s66TKSW+qmTTXxRAuAdkrWUJWKGns0zRT0=</ds:DigestValue>
+            <ds:DigestValue>LrrPk3PDsvBqi2P5d0qNDijlYDDZTAonzib0RtDE9Dw=</ds:DigestValue>
           </ds:Reference>
-          <ds:Reference URI="#id-2-856c151220a2c7e0c71049daec325f65">
+          <ds:Reference URI="#id-2-4dcfc6496ba497c575fd3627aa5a09d7">
             <ds:Transforms>
               <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
             </ds:Transforms>
             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-            <ds:DigestValue>2LoPi7iRmsmTvzHmPG/YTAQ9RlJ+vuKZkbendo697I8=</ds:DigestValue>
+            <ds:DigestValue>VV8ZzkkOadKrNu+jEpavII8/51y+5qw+CSRTgGL2Hrk=</ds:DigestValue>
           </ds:Reference>
-          <ds:Reference URI="#id-4-c20a275e3c3b29239b6b1f66bb52f37b">
+          <ds:Reference URI="#id-4-207517f515f638d79f4e6586fe3c594f">
             <ds:Transforms>
               <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
             </ds:Transforms>
             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-            <ds:DigestValue>9fu3EXWsLC8XaGNPym0eWnYsvrwgkNmUeQr9ugfOLFk=</ds:DigestValue>
+            <ds:DigestValue>fAepvySssYRNwSwOQbe2rAwO0lw3WmaueVIlNV3pkLc=</ds:DigestValue>
           </ds:Reference>
-          <ds:Reference URI="#id-0-4e88de0c7ae50bcc8b1d9d6e71942381">
+          <ds:Reference URI="#id-0-4aea220a495eeaee763edd2141241a48">
             <ds:Transforms>
               <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
             </ds:Transforms>
             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-            <ds:DigestValue>6tHjBUutrfo1tOSAAlGDA2NK2+8CVVY0sjWBGjPZ2zE=</ds:DigestValue>
+            <ds:DigestValue>mgqQtnOymFOxtbnsMD98uu9nCGwEldoUD6wJqdJ7lEs=</ds:DigestValue>
           </ds:Reference>
         </ds:SignedInfo>
-        <ds:SignatureValue>xdhw3i/qOIb4XbgWPyxeAslwCQxsYXZKUkA3UIOEJ8Pp5Sdv7e1KDiNJpp4bM0Rt6t0c6PJGxVuP3jyDHyqnbLDlHHngO5u4UXAqImbMS/Xb4X0CQksjseU0m7di/HgYGqDzqXW/1zbJIAV7oEQSkcMc9JFvvzOx446sME3kLQk9rX564EPSatTp5k87q/WwGPgftoCP98Pbvl8wVxHFWEgsHmwU3x+/AjYongDPupEnAwcxqZNg3XmpZCCQvupFdLOSemM4DzhtFNUpm1t2IO/LoatMzeHBf/zyD/IiZqJFuBWu61nzDlHKJ3uCOHhXwp+ZGtal2OuPc6xgDExifA==</ds:SignatureValue>
+        <ds:SignatureValue>owKi1Ji6AQaWbi5xGfX20NBtER5Q8/DkPSWe2EXRXWOYkORiee7ovw8epw7ZRi9uol7lMlMEaFs/mTDGuauxRdDbsr7g2bxfN8j7FfGYoGFiNGrpD2AgOapxWYaOyaa6MHT51vDflZ6bK61HPmBh0Bz/Fe5pU/iYmbXC0PJyiyn11B029p/GCcY3l6uHjCAQgLg49GW5l+WG5NS24CSgt3tnggVxRfRlXmxCW3t+58sghG6tF9z2LX+Ds3QQ9c4H/BaV8HtdSmbpYGGad/ZyD031fZAndJDh6zM8wdLlowQzeXMxxtn0WI1Ipv/ToPUorGFerbqbiMA/+fXCVXGn1w==</ds:SignatureValue>
         <ds:KeyInfo>
           <wsse:SecurityTokenReference xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
-            <wsse:Reference URI="#id-0-4e88de0c7ae50bcc8b1d9d6e71942381" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3"/>
+            <wsse:Reference URI="#id-0-4aea220a495eeaee763edd2141241a48" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3"/>
           </wsse:SecurityTokenReference>
         </ds:KeyInfo>
       </ds:Signature>
     </wsse:Security>
-    <wsa:Action wsu:Id="id-0-d3fed638d58e8490a2530251e3425bc2"
+    <wsa:Action wsu:Id="id-0-8dc2c219a855d4dfaba1175814812776"
       xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">http://es.kvk.nl/ophalenInschrijvingResponse</wsa:Action>
-    <wsa:MessageID wsu:Id="id-1-a8b6ca5610de9ac3df464c54f5752294"
-      xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">uuid:9f5cabf9-456c-4f6a-a903-2e391ff749ec</wsa:MessageID>
-    <wsa:To wsu:Id="id-2-856c151220a2c7e0c71049daec325f65"
+    <wsa:MessageID wsu:Id="id-1-339540c0fde02448becbec1951180726"
+      xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">uuid:83159697-fd0e-48b5-b099-2d47d926f94b</wsa:MessageID>
+    <wsa:To wsu:Id="id-2-4dcfc6496ba497c575fd3627aa5a09d7"
       xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">http://www.w3.org/2005/08/addressing/anonymous</wsa:To>
-    <wsa:From wsu:Id="id-3-d5a4fbff9a2b809f696f3c96d7875b4b"
+    <wsa:From wsu:Id="id-3-83773c9deb0eb1165272abf40c96f00a"
       xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
       <wsa:Address>http://es.kvk.nl/KVK-DataservicePP/2015/02</wsa:Address>
       <wstxns3:ReferenceParameters xmlns:wstxns3="http://www.w3.org/2005/08/addressing">
-        <wstxns4:ResourceID xmlns:wstxns4="http://schemas.kvk.nl/schemas/kvk/HRIP-Dataservice">/inschrijving/kvknummer/90000501</wstxns4:ResourceID>
+        <wstxns4:ResourceID xmlns:wstxns4="http://schemas.kvk.nl/schemas/kvk/HRIP-Dataservice">/inschrijving/kvknummer/90001443</wstxns4:ResourceID>
       </wstxns3:ReferenceParameters>
     </wsa:From>
-    <wsa:RelatesTo wsa:RelationshipType="http://www.w3.org/2005/08/addressing/reply" wsu:Id="id-4-c20a275e3c3b29239b6b1f66bb52f37b"
-      xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">uuid:682e3fee-9522-471f-9d23-e94c751b5ffd</wsa:RelatesTo>
+    <wsa:RelatesTo wsa:RelationshipType="http://www.w3.org/2005/08/addressing/reply" wsu:Id="id-4-207517f515f638d79f4e6586fe3c594f"
+      xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">uuid:6e650012-f1d1-4c8e-b900-a27ecca7d414</wsa:RelatesTo>
   </wstxns1:Header>
-  <wstxns8:Body wsu:Id="id-1-821091a7d6bffc21e03614215337abb4"
+  <wstxns8:Body wsu:Id="id-1-5b6652eb28a93235e747ea3abce98bb8"
     xmlns:wstxns8="http://schemas.xmlsoap.org/soap/envelope/"
     xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
     <ophalenInschrijvingResponse peilmoment="20200924122839746"
@@ -104,16 +104,15 @@
         <informatie>
           <code>IPD0000</code>
           <omschrijving>Het product is succesvol geproduceerd</omschrijving>
-          <referentie>90000501</referentie>
+          <referentie>90001443</referentie>
         </informatie>
       </meldingen>
       <product xmlns="http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02">
         <maatschappelijkeActiviteit xmlns="http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02">
           <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-            <datumAanvang>19880531</datumAanvang>
-            <datumEinde>20120320</datumEinde>
+            <datumAanvang>19821230</datumAanvang>
           </registratie>
-          <kvkNummer>90000501</kvkNummer>
+          <kvkNummer>90000003</kvkNummer>
           <nonMailing>
             <code>N</code>
             <omschrijving>Nee</omschrijving>
@@ -125,9 +124,8 @@
             <referentieType>geenRT</referentieType>
           </incidenteelUitlenenArbeidskrachten>
           <bezoekLocatie>
-            <registratie registratieTijdstip="20120321091141456">
-              <datumAanvang>20050125</datumAanvang>
-              <datumEinde>20120320</datumEinde>
+            <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+              <datumAanvang>20030327</datumAanvang>
             </registratie>
             <afgeschermd>
               <code>N</code>
@@ -136,25 +134,25 @@
             </afgeschermd>
             <adres>
               <binnenlandsAdres>
-                <straatnaam>Saturnusstraat</straatnaam>
-                <huisnummer>9</huisnummer>
+                <straatnaam>Gerstlaan</straatnaam>
+                <huisnummer>8</huisnummer>
+                <huisletter>A</huisletter>
                 <postcode>
-                  <cijfercombinatie>2402</cijfercombinatie>
-                  <lettercombinatie>AD</lettercombinatie>
+                  <cijfercombinatie>5632</cijfercombinatie>
+                  <lettercombinatie>KP</lettercombinatie>
                 </postcode>
-                <plaats>Alphen aan den Rijn</plaats>
+                <plaats>Eindhoven</plaats>
                 <bagId>
-                  <identificatieNummeraanduiding>0074999999984430</identificatieNummeraanduiding>
-                  <identificatieAdresseerbaarObject>0074999999319041</identificatieAdresseerbaarObject>
+                  <identificatieNummeraanduiding>0074999999765979</identificatieNummeraanduiding>
+                  <identificatieAdresseerbaarObject>0074999999227177</identificatieAdresseerbaarObject>
                 </bagId>
               </binnenlandsAdres>
             </adres>
-            <volledigAdres>Saturnusstraat 9 2402AD Alphen aan den Rijn</volledigAdres>
+            <volledigAdres>Gerstlaan 8 5632KP Eindhoven</volledigAdres>
           </bezoekLocatie>
           <postLocatie>
-            <registratie registratieTijdstip="20120321091141456">
-              <datumAanvang>20050125</datumAanvang>
-              <datumEinde>20120320</datumEinde>
+            <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+              <datumAanvang>20030327</datumAanvang>
             </registratie>
             <afgeschermd>
               <code>N</code>
@@ -163,25 +161,25 @@
             </afgeschermd>
             <adres>
               <binnenlandsAdres>
-                <straatnaam>Saturnusstraat</straatnaam>
-                <huisnummer>9</huisnummer>
+                <straatnaam>Gerstlaan</straatnaam>
+                <huisnummer>8</huisnummer>
+                <huisletter>A</huisletter>
                 <postcode>
-                  <cijfercombinatie>2402</cijfercombinatie>
-                  <lettercombinatie>AD</lettercombinatie>
+                  <cijfercombinatie>5632</cijfercombinatie>
+                  <lettercombinatie>KP</lettercombinatie>
                 </postcode>
-                <plaats>Alphen aan den Rijn</plaats>
+                <plaats>Eindhoven</plaats>
                 <bagId>
-                  <identificatieNummeraanduiding>0074999999984430</identificatieNummeraanduiding>
-                  <identificatieAdresseerbaarObject>0074999999319041</identificatieAdresseerbaarObject>
+                  <identificatieNummeraanduiding>0074999999765979</identificatieNummeraanduiding>
+                  <identificatieAdresseerbaarObject>0074999999227177</identificatieAdresseerbaarObject>
                 </bagId>
               </binnenlandsAdres>
             </adres>
-            <volledigAdres>Saturnusstraat 9 2402AD Alphen aan den Rijn</volledigAdres>
+            <volledigAdres>Gerstlaan 8 5632KP Eindhoven</volledigAdres>
           </postLocatie>
           <communicatiegegevens>
-            <registratie registratieTijdstip="20120321091141456">
-              <datumAanvang>19880531</datumAanvang>
-              <datumEinde>20120320</datumEinde>
+            <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+              <datumAanvang>19821230</datumAanvang>
             </registratie>
             <communicatienummer>
               <toegangscode>+31</toegangscode>
@@ -192,22 +190,19 @@
               </soort>
             </communicatienummer>
           </communicatiegegevens>
-          <naam>Global Saltplex B.V.</naam>
+          <naam>Company Indigreen B.V.</naam>
           <manifesteertZichAls>
-            <relatieRegistratie registratieTijdstip="20120321091141456">
-              <datumAanvang>19880531</datumAanvang>
-              <datumEinde>20120320</datumEinde>
+            <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+              <datumAanvang>19821230</datumAanvang>
             </relatieRegistratie>
             <onderneming>
               <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-                <datumAanvang>19880531</datumAanvang>
-                <datumEinde>20120320</datumEinde>
+                <datumAanvang>19821230</datumAanvang>
               </registratie>
-              <kvkNummer>90000501</kvkNummer>
+              <kvkNummer>90001443</kvkNummer>
               <sbiActiviteit>
-                <registratie registratieTijdstip="20120321091141456">
-                  <datumAanvang>19880531</datumAanvang>
-                  <datumEinde>20120320</datumEinde>
+                <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>19821230</datumAanvang>
                 </registratie>
                 <sbiCode>
                   <code>6420</code>
@@ -220,66 +215,30 @@
                   <referentieType>geenRT</referentieType>
                 </isHoofdactiviteit>
               </sbiActiviteit>
-              <sbiActiviteit>
-                <registratie registratieTijdstip="20120321091141456">
-                  <datumAanvang>19880531</datumAanvang>
-                  <datumEinde>20120320</datumEinde>
-                </registratie>
-                <sbiCode>
-                  <code>64302</code>
-                  <omschrijving>Beleggingsinstellingen in vaste activa</omschrijving>
-                  <referentieType>ActiviteitCode</referentieType>
-                </sbiCode>
-                <isHoofdactiviteit>
-                  <code>N</code>
-                  <omschrijving>Nee</omschrijving>
-                  <referentieType>geenRT</referentieType>
-                </isHoofdactiviteit>
-              </sbiActiviteit>
-              <sbiActiviteit>
-                <registratie registratieTijdstip="20120321091141456">
-                  <datumAanvang>19880531</datumAanvang>
-                  <datumEinde>20120320</datumEinde>
-                </registratie>
-                <sbiCode>
-                  <code>68204</code>
-                  <omschrijving>Verhuur van onroerend goed (niet van woonruimte)</omschrijving>
-                  <referentieType>ActiviteitCode</referentieType>
-                </sbiCode>
-                <isHoofdactiviteit>
-                  <code>N</code>
-                  <omschrijving>Nee</omschrijving>
-                  <referentieType>geenRT</referentieType>
-                </isHoofdactiviteit>
-              </sbiActiviteit>
-              <voltijdWerkzamePersonen>1</voltijdWerkzamePersonen>
+              <voltijdWerkzamePersonen>0</voltijdWerkzamePersonen>
               <deeltijdWerkzamePersonen>0</deeltijdWerkzamePersonen>
-              <totaalWerkzamePersonen>1</totaalWerkzamePersonen>
+              <totaalWerkzamePersonen>0</totaalWerkzamePersonen>
               <handeltOnder>
                 <handelsnaam>
                   <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-                    <datumAanvang>19910712</datumAanvang>
-                    <datumEinde>20120320</datumEinde>
+                    <datumAanvang>19821230</datumAanvang>
                   </registratie>
-                  <naam>Global Saltplex B.V.</naam>
+                  <naam>Company Indigreen B.V.</naam>
                   <volgorde>0</volgorde>
                 </handelsnaam>
               </handeltOnder>
               <wordtUitgeoefendIn>
-                <relatieRegistratie registratieTijdstip="20120321091141456">
-                  <datumAanvang>19880531</datumAanvang>
-                  <datumEinde>20120320</datumEinde>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>19821230</datumAanvang>
                 </relatieRegistratie>
                 <commercieleVestiging>
                   <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-                    <datumAanvang>19880531</datumAanvang>
-                    <datumEinde>20120320</datumEinde>
+                    <datumAanvang>19821230</datumAanvang>
                   </registratie>
-                  <vestigingsnummer>990000275636</vestigingsnummer>
+                  <vestigingsnummer>990000626196</vestigingsnummer>
                   <bezoekLocatie>
-                    <registratie registratieTijdstip="20120321091141456">
-                      <datumAanvang>20050125</datumAanvang>
-                      <datumEinde>20120320</datumEinde>
+                    <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>20030327</datumAanvang>
                     </registratie>
                     <afgeschermd>
                       <code>N</code>
@@ -288,25 +247,25 @@
                     </afgeschermd>
                     <adres>
                       <binnenlandsAdres>
-                        <straatnaam>Saturnusstraat</straatnaam>
-                        <huisnummer>9</huisnummer>
+                        <straatnaam>Gerstlaan</straatnaam>
+                        <huisnummer>8</huisnummer>
+                        <huisletter>A</huisletter>
                         <postcode>
-                          <cijfercombinatie>2402</cijfercombinatie>
-                          <lettercombinatie>AD</lettercombinatie>
+                          <cijfercombinatie>5632</cijfercombinatie>
+                          <lettercombinatie>KP</lettercombinatie>
                         </postcode>
-                        <plaats>Alphen aan den Rijn</plaats>
+                        <plaats>Eindhoven</plaats>
                         <bagId>
-                          <identificatieNummeraanduiding>0074999999984430</identificatieNummeraanduiding>
-                          <identificatieAdresseerbaarObject>0074999999319041</identificatieAdresseerbaarObject>
+                          <identificatieNummeraanduiding>0074999999765979</identificatieNummeraanduiding>
+                          <identificatieAdresseerbaarObject>0074999999227177</identificatieAdresseerbaarObject>
                         </bagId>
                       </binnenlandsAdres>
                     </adres>
-                    <volledigAdres>Saturnusstraat 9 2402AD Alphen aan den Rijn</volledigAdres>
+                    <volledigAdres>Gerstlaan 8 5632KP Eindhoven</volledigAdres>
                   </bezoekLocatie>
                   <communicatiegegevens>
-                    <registratie registratieTijdstip="20120321091141456">
-                      <datumAanvang>19880531</datumAanvang>
-                      <datumEinde>20120320</datumEinde>
+                    <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>19821230</datumAanvang>
                     </registratie>
                     <communicatienummer>
                       <toegangscode>+31</toegangscode>
@@ -317,16 +276,15 @@
                       </soort>
                     </communicatienummer>
                   </communicatiegegevens>
-                  <eersteHandelsnaam>Global Saltplex B.V.</eersteHandelsnaam>
-                  <voltijdWerkzamePersonen>1</voltijdWerkzamePersonen>
+                  <eersteHandelsnaam>Company Indigreen B.V.</eersteHandelsnaam>
+                  <voltijdWerkzamePersonen>0</voltijdWerkzamePersonen>
                   <deeltijdWerkzamePersonen>0</deeltijdWerkzamePersonen>
-                  <totaalWerkzamePersonen>1</totaalWerkzamePersonen>
+                  <totaalWerkzamePersonen>0</totaalWerkzamePersonen>
                   <activiteiten>
-                    <omschrijving>De uitoefening van een beheer- en beleggingsmaatschappij en de exploitatie van onroerende zaken.</omschrijving>
+                    <omschrijving>Beheermaatschappij.</omschrijving>
                     <sbiActiviteit>
-                      <registratie registratieTijdstip="20120321091141456">
-                        <datumAanvang>19880531</datumAanvang>
-                        <datumEinde>20120320</datumEinde>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>19821230</datumAanvang>
                       </registratie>
                       <sbiCode>
                         <code>6420</code>
@@ -336,38 +294,6 @@
                       <isHoofdactiviteit>
                         <code>J</code>
                         <omschrijving>Ja</omschrijving>
-                        <referentieType>geenRT</referentieType>
-                      </isHoofdactiviteit>
-                    </sbiActiviteit>
-                    <sbiActiviteit>
-                      <registratie registratieTijdstip="20120321091141456">
-                        <datumAanvang>19880531</datumAanvang>
-                        <datumEinde>20120320</datumEinde>
-                      </registratie>
-                      <sbiCode>
-                        <code>64302</code>
-                        <omschrijving>Beleggingsinstellingen in vaste activa</omschrijving>
-                        <referentieType>ActiviteitCode</referentieType>
-                      </sbiCode>
-                      <isHoofdactiviteit>
-                        <code>N</code>
-                        <omschrijving>Nee</omschrijving>
-                        <referentieType>geenRT</referentieType>
-                      </isHoofdactiviteit>
-                    </sbiActiviteit>
-                    <sbiActiviteit>
-                      <registratie registratieTijdstip="20120321091141456">
-                        <datumAanvang>19880531</datumAanvang>
-                        <datumEinde>20120320</datumEinde>
-                      </registratie>
-                      <sbiCode>
-                        <code>68204</code>
-                        <omschrijving>Verhuur van onroerend goed (niet van woonruimte)</omschrijving>
-                        <referentieType>ActiviteitCode</referentieType>
-                      </sbiCode>
-                      <isHoofdactiviteit>
-                        <code>N</code>
-                        <omschrijving>Nee</omschrijving>
                         <referentieType>geenRT</referentieType>
                       </isHoofdactiviteit>
                     </sbiActiviteit>
@@ -383,16 +309,14 @@
                     </importeert>
                   </activiteiten>
                   <handeltOnder>
-                    <relatieRegistratie registratieTijdstip="20120321091141456">
-                      <datumAanvang>19910712</datumAanvang>
-                      <datumEinde>20120320</datumEinde>
+                    <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>19821230</datumAanvang>
                     </relatieRegistratie>
                     <handelsnaam>
                       <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-                        <datumAanvang>19910712</datumAanvang>
-                        <datumEinde>20120320</datumEinde>
+                        <datumAanvang>19821230</datumAanvang>
                       </registratie>
-                      <naam>Global Saltplex B.V.</naam>
+                      <naam>Company Indigreen B.V.</naam>
                       <volgorde>0</volgorde>
                     </handelsnaam>
                   </handeltOnder>
@@ -403,14 +327,12 @@
           <wordtGeleidVanuit>
             <commercieleVestiging>
               <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-                <datumAanvang>19880531</datumAanvang>
-                <datumEinde>20120320</datumEinde>
+                <datumAanvang>19821230</datumAanvang>
               </registratie>
-              <vestigingsnummer>990000275636</vestigingsnummer>
+              <vestigingsnummer>990000626196</vestigingsnummer>
               <bezoekLocatie>
-                <registratie registratieTijdstip="20120321091141456">
-                  <datumAanvang>20050125</datumAanvang>
-                  <datumEinde>20120320</datumEinde>
+                <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20030327</datumAanvang>
                 </registratie>
                 <afgeschermd>
                   <code>N</code>
@@ -419,25 +341,25 @@
                 </afgeschermd>
                 <adres>
                   <binnenlandsAdres>
-                    <straatnaam>Saturnusstraat</straatnaam>
-                    <huisnummer>9</huisnummer>
+                    <straatnaam>Gerstlaan</straatnaam>
+                    <huisnummer>8</huisnummer>
+                    <huisletter>A</huisletter>
                     <postcode>
-                      <cijfercombinatie>2402</cijfercombinatie>
-                      <lettercombinatie>AD</lettercombinatie>
+                      <cijfercombinatie>5632</cijfercombinatie>
+                      <lettercombinatie>KP</lettercombinatie>
                     </postcode>
-                    <plaats>Alphen aan den Rijn</plaats>
+                    <plaats>Eindhoven</plaats>
                     <bagId>
-                      <identificatieNummeraanduiding>0074999999984430</identificatieNummeraanduiding>
-                      <identificatieAdresseerbaarObject>0074999999319041</identificatieAdresseerbaarObject>
+                      <identificatieNummeraanduiding>0074999999765979</identificatieNummeraanduiding>
+                      <identificatieAdresseerbaarObject>0074999999227177</identificatieAdresseerbaarObject>
                     </bagId>
                   </binnenlandsAdres>
                 </adres>
-                <volledigAdres>Saturnusstraat 9 2402AD Alphen aan den Rijn</volledigAdres>
+                <volledigAdres>Gerstlaan 8 5632KP Eindhoven</volledigAdres>
               </bezoekLocatie>
               <communicatiegegevens>
-                <registratie registratieTijdstip="20120321091141456">
-                  <datumAanvang>19880531</datumAanvang>
-                  <datumEinde>20120320</datumEinde>
+                <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>19821230</datumAanvang>
                 </registratie>
                 <communicatienummer>
                   <toegangscode>+31</toegangscode>
@@ -448,16 +370,15 @@
                   </soort>
                 </communicatienummer>
               </communicatiegegevens>
-              <eersteHandelsnaam>Global Saltplex B.V.</eersteHandelsnaam>
-              <voltijdWerkzamePersonen>1</voltijdWerkzamePersonen>
+              <eersteHandelsnaam>Company Indigreen B.V.</eersteHandelsnaam>
+              <voltijdWerkzamePersonen>0</voltijdWerkzamePersonen>
               <deeltijdWerkzamePersonen>0</deeltijdWerkzamePersonen>
-              <totaalWerkzamePersonen>1</totaalWerkzamePersonen>
+              <totaalWerkzamePersonen>0</totaalWerkzamePersonen>
               <activiteiten>
-                <omschrijving>De uitoefening van een beheer- en beleggingsmaatschappij en de exploitatie van onroerende zaken.</omschrijving>
+                <omschrijving>Beheermaatschappij.</omschrijving>
                 <sbiActiviteit>
-                  <registratie registratieTijdstip="20120321091141456">
-                    <datumAanvang>19880531</datumAanvang>
-                    <datumEinde>20120320</datumEinde>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>19821230</datumAanvang>
                   </registratie>
                   <sbiCode>
                     <code>6420</code>
@@ -467,38 +388,6 @@
                   <isHoofdactiviteit>
                     <code>J</code>
                     <omschrijving>Ja</omschrijving>
-                    <referentieType>geenRT</referentieType>
-                  </isHoofdactiviteit>
-                </sbiActiviteit>
-                <sbiActiviteit>
-                  <registratie registratieTijdstip="20120321091141456">
-                    <datumAanvang>19880531</datumAanvang>
-                    <datumEinde>20120320</datumEinde>
-                  </registratie>
-                  <sbiCode>
-                    <code>64302</code>
-                    <omschrijving>Beleggingsinstellingen in vaste activa</omschrijving>
-                    <referentieType>ActiviteitCode</referentieType>
-                  </sbiCode>
-                  <isHoofdactiviteit>
-                    <code>N</code>
-                    <omschrijving>Nee</omschrijving>
-                    <referentieType>geenRT</referentieType>
-                  </isHoofdactiviteit>
-                </sbiActiviteit>
-                <sbiActiviteit>
-                  <registratie registratieTijdstip="20120321091141456">
-                    <datumAanvang>19880531</datumAanvang>
-                    <datumEinde>20120320</datumEinde>
-                  </registratie>
-                  <sbiCode>
-                    <code>68204</code>
-                    <omschrijving>Verhuur van onroerend goed (niet van woonruimte)</omschrijving>
-                    <referentieType>ActiviteitCode</referentieType>
-                  </sbiCode>
-                  <isHoofdactiviteit>
-                    <code>N</code>
-                    <omschrijving>Nee</omschrijving>
                     <referentieType>geenRT</referentieType>
                   </isHoofdactiviteit>
                 </sbiActiviteit>
@@ -514,56 +403,62 @@
                 </importeert>
               </activiteiten>
               <handeltOnder>
-                <relatieRegistratie registratieTijdstip="20120321091141456">
-                  <datumAanvang>19910712</datumAanvang>
-                  <datumEinde>20120320</datumEinde>
+                <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>19821230</datumAanvang>
                 </relatieRegistratie>
                 <handelsnaam>
                   <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-                    <datumAanvang>19910712</datumAanvang>
-                    <datumEinde>20120320</datumEinde>
+                    <datumAanvang>19821230</datumAanvang>
                   </registratie>
-                  <naam>Global Saltplex B.V.</naam>
+                  <naam>Company Indigreen B.V.</naam>
                   <volgorde>0</volgorde>
                 </handelsnaam>
               </handeltOnder>
             </commercieleVestiging>
           </wordtGeleidVanuit>
           <heeftAlsEigenaar>
-            <relatieRegistratie registratieTijdstip="20120321091141456">
-              <datumAanvang>19880531</datumAanvang>
-              <datumEinde>20120320</datumEinde>
+            <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
+              <datumAanvang>19821230</datumAanvang>
             </relatieRegistratie>
             <rechtspersoon>
               <extraElementen>
-                <extraElement naam="datumAanvangStatuten">19910712</extraElement>
-                <extraElement naam="datumAkteStatuten">19910712</extraElement>
+                <extraElement naam="datumAanvangStatuten">19821230</extraElement>
+                <extraElement naam="datumAkteStatuten">19821230</extraElement>
               </extraElementen>
               <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-                <datumAanvang>19880531</datumAanvang>
-                <datumEinde>20120320</datumEinde>
+                <datumAanvang>19821230</datumAanvang>
               </registratie>
               <persoonRechtsvorm>Besloten Vennootschap</persoonRechtsvorm>
-              <volledigeNaam>Global Saltplex B.V.</volledigeNaam>
+              <volledigeNaam>Company Indigreen B.V.</volledigeNaam>
               <uitgebreideRechtsvorm>Besloten Vennootschap</uitgebreideRechtsvorm>
               <heeft>
                 <bestuursfunctie>
                   <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-                    <datumAanvang>20010601</datumAanvang>
-                    <datumEinde>20120320</datumEinde>
+                    <datumAanvang>19821230</datumAanvang>
                   </registratie>
+                  <functietitel>
+                    <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>19821230</datumAanvang>
+                    </registratie>
+                    <titel>Direkteur</titel>
+                    <isStatutaireTitel>
+                      <code>J</code>
+                      <omschrijving>Ja</omschrijving>
+                      <referentieType>geenRT</referentieType>
+                    </isStatutaireTitel>
+                  </functietitel>
                   <door>
                     <natuurlijkPersoon>
                       <extraElementen>
-                        <extraElement naam="achternaam">Faucher</extraElement>
+                        <extraElement naam="achternaam">Klaasen</extraElement>
                       </extraElementen>
                       <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-                        <datumAanvang>19630627</datumAanvang>
+                        <datumAanvang>19560427</datumAanvang>
                       </registratie>
-                      <volledigeNaam>Judy Faucher</volledigeNaam>
-                      <geslachtsnaam>Faucher</geslachtsnaam>
-                      <voornamen>Judy</voornamen>
-                      <geboortedatum>19630627</geboortedatum>
+                      <volledigeNaam>Jan Klaasen</volledigeNaam>
+                      <geslachtsnaam>Klaasen</geslachtsnaam>
+                      <voornamen>Jan</voornamen>
+                      <geboortedatum>20000101</geboortedatum>
                     </natuurlijkPersoon>
                   </door>
                   <functie>
@@ -572,9 +467,8 @@
                     <referentieType>FunctionarisRol</referentieType>
                   </functie>
                   <bevoegdheid>
-                    <registratie registratieTijdstip="20120321091141456">
-                      <datumAanvang>20010601</datumAanvang>
-                      <datumEinde>20120320</datumEinde>
+                    <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                      <datumAanvang>19821230</datumAanvang>
                     </registratie>
                     <soort>
                       <code>azb</code>
@@ -589,34 +483,48 @@
                   </bevoegdheid>
                 </bestuursfunctie>
               </heeft>
-              <rsin>992924807</rsin>
+              <heeft>
+                <overigeFunctionaris>
+                  <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                    <datumAanvang>19830101</datumAanvang>
+                  </registratie>
+                  <door>
+                    <natuurlijkPersoon>
+                      <extraElementen>
+                        <extraElement naam="achternaam">Klaasen</extraElement>
+                      </extraElementen>
+                      <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                        <datumAanvang>19560427</datumAanvang>
+                      </registratie>
+                      <volledigeNaam>Jan Klaasen</volledigeNaam>
+                      <geslachtsnaam>Klaasen</geslachtsnaam>
+                      <voornamen>Jan</voornamen>
+                      <geboortedatum>19560427</geboortedatum>
+                    </natuurlijkPersoon>
+                  </door>
+                  <functie>
+                    <code>08</code>
+                    <omschrijving>Enig aandeelhouder</omschrijving>
+                    <referentieType>FunctionarisRol</referentieType>
+                  </functie>
+                </overigeFunctionaris>
+              </heeft>
+              <rsin>992386032</rsin>
               <naamgeving>
-                <registratie registratieTijdstip="20120321091141456">
-                  <datumAanvang>19910712</datumAanvang>
-                  <datumEinde>20120320</datumEinde>
+                <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>19821230</datumAanvang>
                 </registratie>
-                <naam>Global Saltplex B.V.</naam>
+                <naam>Company Indigreen B.V.</naam>
               </naamgeving>
-              <ontbinding>
-                <registratie registratieTijdstip="20120321091141456">
-                  <datumAanvang>20120320</datumAanvang>
-                </registratie>
-                <aanleiding>
-                  <code>DK</code>
-                  <omschrijving>Ontbinding door de Kamer van Koophandel</omschrijving>
-                  <referentieType>AanleidingOntbinding</referentieType>
-                </aanleiding>
-              </ontbinding>
               <rechtsvorm>
                 <code>BV</code>
                 <omschrijving>Besloten Vennootschap</omschrijving>
                 <referentieType>Rechtsvorm</referentieType>
               </rechtsvorm>
               <statutaireZetel>Nepplaats</statutaireZetel>
-              <aanvangStatutaireZetel>19880531</aanvangStatutaireZetel>
-              <datumAkteOprichting>19880531</datumAkteOprichting>
-              <datumEersteInschrijvingHandelsregister>19880603</datumEersteInschrijvingHandelsregister>
-              <datumAkteStatutenwijziging>19910712</datumAkteStatutenwijziging>
+              <aanvangStatutaireZetel>19821230</aanvangStatutaireZetel>
+              <datumAkteOprichting>19821230</datumAkteOprichting>
+              <datumAkteStatutenwijziging>19821230</datumAkteStatutenwijziging>
               <stelselInrichting>
                 <code>D</code>
                 <omschrijving>Dualistisch</omschrijving>
@@ -627,26 +535,10 @@
                 <omschrijving>Gewone structuur</omschrijving>
                 <referentieType>RechtsvormStructuur</referentieType>
               </structuur>
-              <maatschappelijkKapitaal>
-                <registratie registratieTijdstip="20120321091141456">
-                  <datumAanvang>19880531</datumAanvang>
-                  <datumEinde>20120320</datumEinde>
-                </registratie>
-                <bedrag>
-                  <waarde>90756.04</waarde>
-                  <valuta>
-                    <code>EUR</code>
-                    <omschrijving>Euro</omschrijving>
-                    <referentieType>Valuta</referentieType>
-                  </valuta>
-                </bedrag>
-              </maatschappelijkKapitaal>
               <geplaatstKapitaal>
-                <registratie registratieTijdstip="20120321091141456">
-                  <datumEinde>20120320</datumEinde>
-                </registratie>
+                <registratie registratieTijdstipNoValue="vastgesteldOnbekend"/>
                 <bedrag>
-                  <waarde>18151.21</waarde>
+                  <waarde>15882.31</waarde>
                   <valuta>
                     <code>EUR</code>
                     <omschrijving>Euro</omschrijving>
@@ -655,11 +547,9 @@
                 </bedrag>
               </geplaatstKapitaal>
               <gestortKapitaal>
-                <registratie registratieTijdstip="20120321091141456">
-                  <datumEinde>20120320</datumEinde>
-                </registratie>
+                <registratie registratieTijdstipNoValue="vastgesteldOnbekend"/>
                 <bedrag>
-                  <waarde>18151.21</waarde>
+                  <waarde>15882.31</waarde>
                   <valuta>
                     <code>EUR</code>
                     <omschrijving>Euro</omschrijving>
@@ -668,9 +558,8 @@
                 </bedrag>
               </gestortKapitaal>
               <bezoekLocatie>
-                <registratie registratieTijdstip="20120321091141456">
-                  <datumAanvang>20050125</datumAanvang>
-                  <datumEinde>20120320</datumEinde>
+                <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
+                  <datumAanvang>20030327</datumAanvang>
                 </registratie>
                 <afgeschermd>
                   <code>N</code>
@@ -679,27 +568,22 @@
                 </afgeschermd>
                 <adres>
                   <binnenlandsAdres>
-                    <straatnaam>Saturnusstraat</straatnaam>
-                    <huisnummer>9</huisnummer>
+                    <straatnaam>Gerstlaan</straatnaam>
+                    <huisnummer>8</huisnummer>
+                    <huisletter>A</huisletter>
                     <postcode>
-                      <cijfercombinatie>2402</cijfercombinatie>
-                      <lettercombinatie>AD</lettercombinatie>
+                      <cijfercombinatie>5632</cijfercombinatie>
+                      <lettercombinatie>KP</lettercombinatie>
                     </postcode>
-                    <plaats>Alphen aan den Rijn</plaats>
+                    <plaats>Eindhoven</plaats>
                     <bagId>
-                      <identificatieNummeraanduiding>0074999999984430</identificatieNummeraanduiding>
-                      <identificatieAdresseerbaarObject>0074999999319041</identificatieAdresseerbaarObject>
+                      <identificatieNummeraanduiding>0074999999765979</identificatieNummeraanduiding>
+                      <identificatieAdresseerbaarObject>0074999999227177</identificatieAdresseerbaarObject>
                     </bagId>
                   </binnenlandsAdres>
                 </adres>
-                <volledigAdres>Saturnusstraat 9 2402AD Alphen aan den Rijn</volledigAdres>
+                <volledigAdres>Gerstlaan 8 5632KP Eindhoven</volledigAdres>
               </bezoekLocatie>
-              <voornemenTotOntbinding>
-                <registratie registratieTijdstip="20120321091141456">
-                  <datumAanvang>20120117</datumAanvang>
-                  <datumEinde>20120320</datumEinde>
-                </registratie>
-              </voornemenTotOntbinding>
             </rechtspersoon>
           </heeftAlsEigenaar>
         </maatschappelijkeActiviteit>

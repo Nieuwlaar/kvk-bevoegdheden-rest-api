@@ -221,7 +221,7 @@
               </extraElementen>
               <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
                 <datumAanvang>20060426</datumAanvang>
-                <datumEinde>20130618</datumEinde>
+
               </registratie>
               <persoonRechtsvorm>Stichting</persoonRechtsvorm>
               <volledigeNaam>Stichting Local Opecane</volledigeNaam>
@@ -248,16 +248,16 @@
                     <natuurlijkPersoon>
                       <extraElementen>
                         <extraElement naam="voorvoegsel">van</extraElement>
-                        <extraElement naam="achternaam">Heilig</extraElement>
+                        <extraElement naam="achternaam">Klaassen</extraElement>
                       </extraElementen>
                       <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
                         <datumAanvang>19771111</datumAanvang>
                       </registratie>
-                      <volledigeNaam>Elwanda Heilig</volledigeNaam>
-                      <geslachtsnaam>Heilig</geslachtsnaam>
-                      <voorvoegselGeslachtsnaam>van</voorvoegselGeslachtsnaam>
-                      <voornamen>Elwanda</voornamen>
-                      <geboortedatum>19771111</geboortedatum>
+                      <volledigeNaam>Jan Klaassen</volledigeNaam>
+                      <geslachtsnaam>Klaassen</geslachtsnaam>
+                      <voorvoegselGeslachtsnaam></voorvoegselGeslachtsnaam>
+                      <voornamen>Jan</voornamen>
+                      <geboortedatum>20000101</geboortedatum>
                     </natuurlijkPersoon>
                   </door>
                   <functie>
@@ -365,11 +365,11 @@
                       <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
                         <datumAanvang>19650504</datumAanvang>
                       </registratie>
-                      <volledigeNaam>Cornell Barge</volledigeNaam>
-                      <geslachtsnaam>Barge</geslachtsnaam>
-                      <voorvoegselGeslachtsnaam>van</voorvoegselGeslachtsnaam>
-                      <voornamen>Cornell</voornamen>
-                      <geboortedatum>19650504</geboortedatum>
+                      <volledigeNaam>Jan Klaasen</volledigeNaam>
+                      <geslachtsnaam>Klaasen</geslachtsnaam>
+                      <voorvoegselGeslachtsnaam></voorvoegselGeslachtsnaam>
+                      <voornamen>Jan</voornamen>
+                      <geboortedatum>20000101</geboortedatum>
                     </natuurlijkPersoon>
                   </door>
                   <functie>
@@ -393,6 +393,20 @@
                       <referentieType>geenRT</referentieType>
                     </isStatutair>
                     <beperkteVolmacht>
+                      <beperkingInGeld>
+                        <waarde>30000</waarde>
+                        <valuta>
+                          <code>EUR</code>
+                          <omschrijving>Euro</omschrijving>
+                          <referentieType>Valuta</referentieType>
+                        </valuta>
+                      </beperkingInGeld>
+                      <beperkingInHandeling>
+                        <soortHandeling>
+                          <code>RDWSOLZ</code>
+                          <omschrijving>RDW eDienst Schorsen Voertuigen</omschrijving>
+                        </soortHandeling>
+                      </beperkingInHandeling>
                       <magOpgaveHandelsregisterDoen>
                         <code>N</code>
                         <omschrijving>Nee</omschrijving>

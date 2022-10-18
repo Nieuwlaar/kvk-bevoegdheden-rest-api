@@ -89,7 +89,7 @@
       xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
       <wsa:Address>http://es.kvk.nl/KVK-DataservicePP/2015/02</wsa:Address>
       <wstxns3:ReferenceParameters xmlns:wstxns3="http://www.w3.org/2005/08/addressing">
-        <wstxns4:ResourceID xmlns:wstxns4="http://schemas.kvk.nl/schemas/kvk/HRIP-Dataservice">/inschrijving/kvknummer/90000022</wstxns4:ResourceID>
+        <wstxns4:ResourceID xmlns:wstxns4="http://schemas.kvk.nl/schemas/kvk/HRIP-Dataservice">/inschrijving/kvknummer/90000021</wstxns4:ResourceID>
       </wstxns3:ReferenceParameters>
     </wsa:From>
     <wsa:RelatesTo wsa:RelationshipType="http://www.w3.org/2005/08/addressing/reply" wsu:Id="id-4-ac7b2211f4d8c45bb1dd4d05240b9828"
@@ -104,7 +104,7 @@
         <informatie>
           <code>IPD0000</code>
           <omschrijving>Het product is succesvol geproduceerd</omschrijving>
-          <referentie>90000022</referentie>
+          <referentie>90000021</referentie>
         </informatie>
       </meldingen>
       <product xmlns="http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02">
@@ -112,7 +112,7 @@
           <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
             <datumAanvang>19941118</datumAanvang>
           </registratie>
-          <kvkNummer>90000022</kvkNummer>
+          <kvkNummer>90000001</kvkNummer>
           <nonMailing>
             <code>N</code>
             <omschrijving>Nee</omschrijving>
@@ -189,7 +189,7 @@
             </communicatienummer>
             <emailAdres>nepemailadres@kvk.nl</emailAdres>
           </communicatiegegevens>
-          <naam>Regional Superfase</naam>
+          <naam>Witbaard Feestartikelen</naam>
           <manifesteertZichAls>
             <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
               <datumAanvang>19960301</datumAanvang>
@@ -198,7 +198,7 @@
               <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
                 <datumAanvang>19941118</datumAanvang>
               </registratie>
-              <kvkNummer>90000022</kvkNummer>
+              <kvkNummer>90000021</kvkNummer>
               <sbiActiviteit>
                 <registratie registratieTijdstip="20130130110246951">
                   <datumAanvang>20130101</datumAanvang>
@@ -916,13 +916,13 @@
             </relatieRegistratie>
             <natuurlijkPersoon>
               <extraElementen>
-                <extraElement naam="achternaam">Rone</extraElement>
+                <extraElement naam="achternaam">Klaasen</extraElement>
               </extraElementen>
               <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
                 <datumAanvang>19791214</datumAanvang>
               </registratie>
               <persoonRechtsvorm>Eenmanszaak</persoonRechtsvorm>
-              <volledigeNaam>Kerry Rone</volledigeNaam>
+              <volledigeNaam>Jan Klaasen</volledigeNaam>
               <uitgebreideRechtsvorm>Eenmanszaak</uitgebreideRechtsvorm>
               <heeft>
                 <gemachtigde>
@@ -937,72 +937,22 @@
                       <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
                         <datumAanvang>19690709</datumAanvang>
                       </registratie>
-                      <volledigeNaam>Francisca Copit</volledigeNaam>
-                      <geslachtsnaam>Copit</geslachtsnaam>
+                      <volledigeNaam>Francisca Cupit</volledigeNaam>
+                      <geslachtsnaam>Cupit</geslachtsnaam>
                       <voornamen>Francisca</voornamen>
                       <geboortedatum>19690709</geboortedatum>
                     </natuurlijkPersoon>
                   </door>
-                  <functietitel>
-                    <registratie registratieTijdstip="20130710142143339">
-                      <datumAanvang>20100401</datumAanvang>
-                      <datumEinde>20130618</datumEinde>
-                    </registratie>
-                    <titel>Toernooidirecteur</titel>
-                    <isStatutaireTitel>
-                      <code>N</code>
-                      <omschrijving>Nee</omschrijving>
-                      <referentieType>geenRT</referentieType>
-                    </isStatutaireTitel>
-                  </functietitel>
                   <functie>
                     <code>01</code>
                     <omschrijving>Gevolmachtigde</omschrijving>
                     <referentieType>FunctionarisRol</referentieType>
                   </functie>
-                  <volmacht>
-                    <registratie registratieTijdstip="20130710142143339">
-                      <datumAanvang>20100401</datumAanvang>
-                      <datumEinde>20130618</datumEinde>
-                    </registratie>
-                    <typeVolmacht>
-                      <code>b</code>
-                      <omschrijving>Beperkte volmacht</omschrijving>
-                      <referentieType>VolmachtType</referentieType>
-                    </typeVolmacht>
-                    <isStatutair>
-                      <code>N</code>
-                      <omschrijving>Nee</omschrijving>
-                      <referentieType>geenRT</referentieType>
-                    </isStatutair>
-                    <beperkteVolmacht>
-                      <beperkingInGeld>
-                        <waarde>5000</waarde>
-                        <valuta>
-                          <code>EUR</code>
-                          <omschrijving>Euro</omschrijving>
-                          <referentieType>Valuta</referentieType>
-                        </valuta>
-                      </beperkingInGeld>
-                      <magOpgaveHandelsregisterDoen>
-                        <code>N</code>
-                        <omschrijving>Nee</omschrijving>
-                        <referentieType>geenRT</referentieType>
-                      </magOpgaveHandelsregisterDoen>
-                      <heeftOverigeVolmacht>
-                        <code>J</code>
-                        <omschrijving>Ja</omschrijving>
-                        <referentieType>geenRT</referentieType>
-                      </heeftOverigeVolmacht>
-                      <omschrijvingOverigeVolmacht>Volmacht in geld beperkt tot een bedrag van
-max. EUR 5000,00</omschrijvingOverigeVolmacht>
-                    </beperkteVolmacht>
-                  </volmacht>
                 </gemachtigde>
               </heeft>
-              <geslachtsnaam>Rone</geslachtsnaam>
-              <voornamen>Kerry</voornamen>
-              <geboortedatum>19791214</geboortedatum>
+              <geslachtsnaam>Klaasen</geslachtsnaam>
+              <voornamen>Jan</voornamen>
+              <geboortedatum>20000101</geboortedatum>
             </natuurlijkPersoon>
           </heeftAlsEigenaar>
         </maatschappelijkeActiviteit>

@@ -4,98 +4,98 @@
     <wsse:Security soap:mustUnderstand="1"
       xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd"
       xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
-      <wsu:Timestamp wsu:Id="id-2-79d4a37caba5592059b0b9d6dae65a1d">
-        <wsu:Created>2022-06-16T08:30:47.292Z</wsu:Created>
-        <wsu:Expires>2022-06-16T08:35:47.292Z</wsu:Expires>
+      <wsu:Timestamp wsu:Id="id-2-f0816a7b70f9f81b02f71eb608a8ac14">
+        <wsu:Created>2022-06-15T12:49:27.216Z</wsu:Created>
+        <wsu:Expires>2022-06-15T12:54:27.216Z</wsu:Expires>
       </wsu:Timestamp>
-      <wsse:BinarySecurityToken EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" wsu:Id="id-0-dbe3cbb6046e7a712dc4ce357b2989d5"
+      <wsse:BinarySecurityToken EncodingType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-soap-message-security-1.0#Base64Binary" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3" wsu:Id="id-0-b6b72f4836ce519a71a34f1e84defbbf"
         xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">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</wsse:BinarySecurityToken>
       <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
         <ds:SignedInfo>
           <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
           <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
-          <ds:Reference URI="#id-1-bfa3c97471d942997d9957d9d6571314">
+          <ds:Reference URI="#id-1-dd1d861acaaa2d856326bf6fc66b9535">
             <ds:Transforms>
               <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
             </ds:Transforms>
             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-            <ds:DigestValue>q8LiltidwCL7Ql6ZE1NeUyuQuz1Pc5tEZk1SM6FjOG0=</ds:DigestValue>
+            <ds:DigestValue>hhmiI9cycGHbe5Ph6Hzrfw8O2UxbUWuZhbRgAGKJaVU=</ds:DigestValue>
           </ds:Reference>
-          <ds:Reference URI="#id-3-eb321686a59b99dab035b8bd6fa0d4ce">
+          <ds:Reference URI="#id-3-d1ffce3bbc555d8aa4bfb574d7d0437d">
             <ds:Transforms>
               <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
             </ds:Transforms>
             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-            <ds:DigestValue>d0ltFcXVJy82mgLMesZIP1xVO846Y1KN2E1bXaUlyBM=</ds:DigestValue>
+            <ds:DigestValue>r5IVCsViVX0vOO/oLfSuH/Dsz7uhwi1VUTQDUE3LsP4=</ds:DigestValue>
           </ds:Reference>
-          <ds:Reference URI="#id-2-79d4a37caba5592059b0b9d6dae65a1d">
+          <ds:Reference URI="#id-2-f0816a7b70f9f81b02f71eb608a8ac14">
             <ds:Transforms>
               <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
             </ds:Transforms>
             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-            <ds:DigestValue>Ux1V442b9l4GbGHWZMV0XKNbzquM2Qb016ZJGgfAi0o=</ds:DigestValue>
+            <ds:DigestValue>MWSNFN/aonKgE3O59sqzfPWAFmJ3TBVW6VEuBSysW0Q=</ds:DigestValue>
           </ds:Reference>
-          <ds:Reference URI="#id-0-f588ffaa3536b3d0fc95feeb0ecac11b">
+          <ds:Reference URI="#id-0-e17cabd133f422bacd1eeed8a2ab3600">
             <ds:Transforms>
               <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
             </ds:Transforms>
             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-            <ds:DigestValue>oCOurIorp8SQNMfnB5DJzz8XZxJzItu0PhYUgamy+1Y=</ds:DigestValue>
+            <ds:DigestValue>oLGh7hHsiaDr0xzIQcAvOyemiRMRPEsh36LcZliysJw=</ds:DigestValue>
           </ds:Reference>
-          <ds:Reference URI="#id-1-42ba6d893609335b34abd69742f7fec1">
+          <ds:Reference URI="#id-1-6993372ba91191b508541535336ccdef">
             <ds:Transforms>
               <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
             </ds:Transforms>
             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-            <ds:DigestValue>N1aeMKEfkkR3F55hBlh6oxfD6QHqlD+B50NSBXEwIKQ=</ds:DigestValue>
+            <ds:DigestValue>oG+jFC4nk9FTtgiuecXbMmuvUckxzSfScTPMiQ19H1s=</ds:DigestValue>
           </ds:Reference>
-          <ds:Reference URI="#id-2-b2c7bc2fa82dda24829ded7c26d405a0">
+          <ds:Reference URI="#id-2-c2c911021784794ae5e87d15f0ee2e90">
             <ds:Transforms>
               <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
             </ds:Transforms>
             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-            <ds:DigestValue>4D7IJFnnLMw1MJ8St/P6XElY3pyrSY1p94w/PigAKSQ=</ds:DigestValue>
+            <ds:DigestValue>tKLbhOq5N6OCpB+qAEDBJ+sr7qdMrDAY5uufykys3do=</ds:DigestValue>
           </ds:Reference>
-          <ds:Reference URI="#id-4-84a28cb1077a5d157b846e6046ac99ce">
+          <ds:Reference URI="#id-4-f4989944a156b628b2d4ba574cead18f">
             <ds:Transforms>
               <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
             </ds:Transforms>
             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-            <ds:DigestValue>R1ugdmq8wGITUKwoPJoRmR6gd+/vHRr3xe2gpfFSR1U=</ds:DigestValue>
+            <ds:DigestValue>Ohbt/Qvj30pYqRNoeh05E2DaVg3x46UxFSpfqedsCn4=</ds:DigestValue>
           </ds:Reference>
-          <ds:Reference URI="#id-0-dbe3cbb6046e7a712dc4ce357b2989d5">
+          <ds:Reference URI="#id-0-b6b72f4836ce519a71a34f1e84defbbf">
             <ds:Transforms>
               <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
             </ds:Transforms>
             <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-            <ds:DigestValue>S64+WpKHtucXXBbO+broa/hCdFDOPscztli/SsRvL4U=</ds:DigestValue>
+            <ds:DigestValue>RQK5dh0tiXIp6lcmh1SdXaWb96pioAsdqTEuASzwxjQ=</ds:DigestValue>
           </ds:Reference>
         </ds:SignedInfo>
-        <ds:SignatureValue>RKo/47QoBwtdj0VgvSk3U2zu+iiEBgbZxzeAbh/18GA6aEwjVXUeDvCzm3xi4TlFK2g7SsdaWcTkF8HV8SjT82rgzhUWiK6NgHTSW0WaOii/6WGr51gg8TNOyizPaPiomONFSk8zQ2aT+eS1pmVTbYUmNyCL6arkEXgF3l7L+t6/YxsKCy7aYCMrCN5ZyObE1A4XO/U5rQXe/ooO+rqDCbyCXZ9CBDnbdkVt+3rQqN8hVUPuvODNFDY0FyxTEoimjgDG3CnpgP6bh+CbNgOwiACZG86f47e1GJW73DJpWtjrTmyuZcX+NfZINUqB+NbE1hvlRirOXA5ehaOg1LYASw==</ds:SignatureValue>
+        <ds:SignatureValue>L4M8LS8dolsxRprJl8DR7Rb14SkyytSs/Leh2o1KElMM7rUBfiBsu+cZmonsmliPGpoBxhbNQ5FJMLgpquIjGbXCu07TD8scosksrnL8PhWe+cUrgYh1QT4zWJVmdhbDD6QhZRgkzLOT78gFDnipuYqwVwSnMQ0awxhXnY8I5baxy5H3o4eawQ+YfK8GJz/wDFq2MF/6fimI0DNpU1xsJ4X0Yq0vxtI091FrXjoUWNBwPTnHpbezdljyiZnLh2mZDCqOmHhRxDY5cmG9rNfgRPyULxLeQjOjkzQ3PYYXMaocVjIb2ICvnPqRE6WiSqLm+HlZilWFKCf3u5F1ul7tQQ==</ds:SignatureValue>
         <ds:KeyInfo>
           <wsse:SecurityTokenReference xmlns:wsse="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-secext-1.0.xsd">
-            <wsse:Reference URI="#id-0-dbe3cbb6046e7a712dc4ce357b2989d5" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3"/>
+            <wsse:Reference URI="#id-0-b6b72f4836ce519a71a34f1e84defbbf" ValueType="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-x509-token-profile-1.0#X509v3"/>
           </wsse:SecurityTokenReference>
         </ds:KeyInfo>
       </ds:Signature>
     </wsse:Security>
-    <wsa:Action wsu:Id="id-0-f588ffaa3536b3d0fc95feeb0ecac11b"
+    <wsa:Action wsu:Id="id-0-e17cabd133f422bacd1eeed8a2ab3600"
       xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">http://es.kvk.nl/ophalenInschrijvingResponse</wsa:Action>
-    <wsa:MessageID wsu:Id="id-1-42ba6d893609335b34abd69742f7fec1"
-      xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">uuid:59047fff-f340-49ef-a904-3e2b3a343cec</wsa:MessageID>
-    <wsa:To wsu:Id="id-2-b2c7bc2fa82dda24829ded7c26d405a0"
+    <wsa:MessageID wsu:Id="id-1-6993372ba91191b508541535336ccdef"
+      xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">uuid:db9c34da-f222-491a-b789-eb4e60ecb475</wsa:MessageID>
+    <wsa:To wsu:Id="id-2-c2c911021784794ae5e87d15f0ee2e90"
       xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">http://www.w3.org/2005/08/addressing/anonymous</wsa:To>
-    <wsa:From wsu:Id="id-3-eb321686a59b99dab035b8bd6fa0d4ce"
+    <wsa:From wsu:Id="id-3-d1ffce3bbc555d8aa4bfb574d7d0437d"
       xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
       <wsa:Address>http://es.kvk.nl/KVK-DataservicePP/2015/02</wsa:Address>
       <wstxns3:ReferenceParameters xmlns:wstxns3="http://www.w3.org/2005/08/addressing">
-        <wstxns4:ResourceID xmlns:wstxns4="http://schemas.kvk.nl/schemas/kvk/HRIP-Dataservice">/inschrijving/kvknummer/90003447</wstxns4:ResourceID>
+        <wstxns4:ResourceID xmlns:wstxns4="http://schemas.kvk.nl/schemas/kvk/HRIP-Dataservice">/inschrijving/kvknummer/90000064</wstxns4:ResourceID>
       </wstxns3:ReferenceParameters>
     </wsa:From>
-    <wsa:RelatesTo wsa:RelationshipType="http://www.w3.org/2005/08/addressing/reply" wsu:Id="id-4-84a28cb1077a5d157b846e6046ac99ce"
-      xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">uuid:1956be90-f4ee-4373-b3fc-3781c12eca03</wsa:RelatesTo>
+    <wsa:RelatesTo wsa:RelationshipType="http://www.w3.org/2005/08/addressing/reply" wsu:Id="id-4-f4989944a156b628b2d4ba574cead18f"
+      xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">uuid:742e5ec7-541c-4cd7-90e4-3b6b7aaa860f</wsa:RelatesTo>
   </wstxns1:Header>
-  <wstxns8:Body wsu:Id="id-1-bfa3c97471d942997d9957d9d6571314"
+  <wstxns8:Body wsu:Id="id-1-dd1d861acaaa2d856326bf6fc66b9535"
     xmlns:wstxns8="http://schemas.xmlsoap.org/soap/envelope/"
     xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd">
     <ophalenInschrijvingResponse peilmoment="20200924122839746"
@@ -104,16 +104,16 @@
         <informatie>
           <code>IPD0000</code>
           <omschrijving>Het product is succesvol geproduceerd</omschrijving>
-          <referentie>90003447</referentie>
+          <referentie>90000064</referentie>
         </informatie>
       </meldingen>
       <product xmlns="http://schemas.kvk.nl/schemas/hrip/dataservice/2015/02">
         <maatschappelijkeActiviteit xmlns="http://schemas.kvk.nl/schemas/hrip/catalogus/2015/02">
           <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-            <datumAanvang>20060330</datumAanvang>
-            <datumEinde>20110412</datumEinde>
+            <datumAanvang>20000201</datumAanvang>
+            <datumEinde>20121123</datumEinde>
           </registratie>
-          <kvkNummer>90003447</kvkNummer>
+          <kvkNummer>90000004</kvkNummer>
           <nonMailing>
             <code>N</code>
             <omschrijving>Nee</omschrijving>
@@ -125,9 +125,9 @@
             <referentieType>geenRT</referentieType>
           </incidenteelUitlenenArbeidskrachten>
           <bezoekLocatie>
-            <registratie registratieTijdstip="20110412113406238">
-              <datumAanvang>20061124</datumAanvang>
-              <datumEinde>20110412</datumEinde>
+            <registratie registratieTijdstip="20121214090432956">
+              <datumAanvang>20020214</datumAanvang>
+              <datumEinde>20121123</datumEinde>
             </registratie>
             <afgeschermd>
               <code>N</code>
@@ -136,25 +136,25 @@
             </afgeschermd>
             <adres>
               <binnenlandsAdres>
-                <straatnaam>Hegelhof</straatnaam>
-                <huisnummer>46</huisnummer>
+                <straatnaam>Thomas a Kempisstraat</straatnaam>
+                <huisnummer>15</huisnummer>
+                <huisletter>a</huisletter>
                 <postcode>
-                  <cijfercombinatie>1064</cijfercombinatie>
-                  <lettercombinatie>VX</lettercombinatie>
+                  <cijfercombinatie>7412</cijfercombinatie>
+                  <lettercombinatie>EK</lettercombinatie>
                 </postcode>
-                <plaats>Amsterdam</plaats>
+                <plaats>Deventer</plaats>
                 <bagId>
-                  <identificatieNummeraanduiding>0074999999225029</identificatieNummeraanduiding>
-                  <identificatieAdresseerbaarObject>0074999999162095</identificatieAdresseerbaarObject>
+                  <identificatieNummeraanduiding>0074999999746890</identificatieNummeraanduiding>
+                  <identificatieAdresseerbaarObject>0074999999372730</identificatieAdresseerbaarObject>
                 </bagId>
               </binnenlandsAdres>
             </adres>
-            <volledigAdres>Hegelhof 46 1064VX Amsterdam</volledigAdres>
+            <volledigAdres>Thomas a Kempisstraat 15 7412EK Deventer</volledigAdres>
           </bezoekLocatie>
           <postLocatie>
-            <registratie registratieTijdstip="20110412113406238">
-              <datumAanvang>20061124</datumAanvang>
-              <datumEinde>20110412</datumEinde>
+            <registratie registratieTijdstip="20100930155518298">
+              <datumAanvang>20100928</datumAanvang>
             </registratie>
             <afgeschermd>
               <code>N</code>
@@ -163,25 +163,20 @@
             </afgeschermd>
             <adres>
               <binnenlandsAdres>
-                <straatnaam>Hegelhof</straatnaam>
-                <huisnummer>46</huisnummer>
+                <postbusnummer>99999</postbusnummer>
                 <postcode>
-                  <cijfercombinatie>1064</cijfercombinatie>
-                  <lettercombinatie>VX</lettercombinatie>
+                  <cijfercombinatie>4336</cijfercombinatie>
+                  <lettercombinatie>KL</lettercombinatie>
                 </postcode>
-                <plaats>Amsterdam</plaats>
-                <bagId>
-                  <identificatieNummeraanduiding>0074999999225029</identificatieNummeraanduiding>
-                  <identificatieAdresseerbaarObject>0074999999162095</identificatieAdresseerbaarObject>
-                </bagId>
+                <plaats>Middelburg</plaats>
               </binnenlandsAdres>
             </adres>
-            <volledigAdres>Hegelhof 46 1064VX Amsterdam</volledigAdres>
+            <volledigAdres>Postbus 99999 4336KL Middelburg</volledigAdres>
           </postLocatie>
           <communicatiegegevens>
-            <registratie registratieTijdstip="20110412113406238">
-              <datumAanvang>20050101</datumAanvang>
-              <datumEinde>20110412</datumEinde>
+            <registratie registratieTijdstip="20121214090432956">
+              <datumAanvang>20000201</datumAanvang>
+              <datumEinde>20121123</datumEinde>
             </registratie>
             <communicatienummer>
               <toegangscode>+31</toegangscode>
@@ -191,36 +186,27 @@
                 <omschrijving>Telefoon</omschrijving>
               </soort>
             </communicatienummer>
-            <communicatienummer>
-              <toegangscode>+31</toegangscode>
-              <nummer>0209999999</nummer>
-              <soort>
-                <code>F</code>
-                <omschrijving>Fax</omschrijving>
-              </soort>
-            </communicatienummer>
-            <emailAdres>nepemailadres@kvk.nl</emailAdres>
           </communicatiegegevens>
-          <naam>Grand Istamfan</naam>
+          <naam>International Goldcare</naam>
           <manifesteertZichAls>
-            <relatieRegistratie registratieTijdstip="20110412113406238">
-              <datumAanvang>20060330</datumAanvang>
-              <datumEinde>20110412</datumEinde>
+            <relatieRegistratie registratieTijdstip="20121214090432956">
+              <datumAanvang>20000201</datumAanvang>
+              <datumEinde>20121123</datumEinde>
             </relatieRegistratie>
             <onderneming>
               <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-                <datumAanvang>20050101</datumAanvang>
-                <datumEinde>20110412</datumEinde>
+                <datumAanvang>20000201</datumAanvang>
+                <datumEinde>20121123</datumEinde>
               </registratie>
-              <kvkNummer>90003447</kvkNummer>
+              <kvkNummer>90000064</kvkNummer>
               <sbiActiviteit>
-                <registratie registratieTijdstip="20110412113406238">
-                  <datumAanvang>20050101</datumAanvang>
-                  <datumEinde>20110412</datumEinde>
+                <registratie registratieTijdstip="20121214090432956">
+                  <datumAanvang>20000201</datumAanvang>
+                  <datumEinde>20121123</datumEinde>
                 </registratie>
                 <sbiCode>
-                  <code>4941</code>
-                  <omschrijving>Goederenvervoer over de weg (geen verhuizingen)</omschrijving>
+                  <code>46731</code>
+                  <omschrijving>Groothandel in hout en plaatmateriaal</omschrijving>
                   <referentieType>ActiviteitCode</referentieType>
                 </sbiCode>
                 <isHoofdactiviteit>
@@ -229,34 +215,34 @@
                   <referentieType>geenRT</referentieType>
                 </isHoofdactiviteit>
               </sbiActiviteit>
-              <voltijdWerkzamePersonen>5</voltijdWerkzamePersonen>
+              <voltijdWerkzamePersonen>2</voltijdWerkzamePersonen>
               <deeltijdWerkzamePersonen>0</deeltijdWerkzamePersonen>
-              <totaalWerkzamePersonen>5</totaalWerkzamePersonen>
+              <totaalWerkzamePersonen>2</totaalWerkzamePersonen>
               <handeltOnder>
                 <handelsnaam>
                   <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-                    <datumAanvang>20051207</datumAanvang>
-                    <datumEinde>20110412</datumEinde>
+                    <datumAanvang>20000201</datumAanvang>
+                    <datumEinde>20121123</datumEinde>
                   </registratie>
-                  <naam>Grand Istamfan</naam>
+                  <naam>International Goldcare</naam>
                   <volgorde>0</volgorde>
                 </handelsnaam>
               </handeltOnder>
               <wordtUitgeoefendIn>
-                <relatieRegistratie registratieTijdstip="20110412113406238">
-                  <datumAanvang>20060330</datumAanvang>
-                  <datumEinde>20110412</datumEinde>
+                <relatieRegistratie registratieTijdstip="20121214090432956">
+                  <datumAanvang>20000201</datumAanvang>
+                  <datumEinde>20121123</datumEinde>
                 </relatieRegistratie>
                 <commercieleVestiging>
                   <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-                    <datumAanvang>20050101</datumAanvang>
-                    <datumEinde>20110412</datumEinde>
+                    <datumAanvang>20000201</datumAanvang>
+                    <datumEinde>20121123</datumEinde>
                   </registratie>
-                  <vestigingsnummer>990000092636</vestigingsnummer>
+                  <vestigingsnummer>990000811734</vestigingsnummer>
                   <bezoekLocatie>
-                    <registratie registratieTijdstip="20110412113406238">
-                      <datumAanvang>20061124</datumAanvang>
-                      <datumEinde>20110412</datumEinde>
+                    <registratie registratieTijdstip="20121214090432956">
+                      <datumAanvang>20020214</datumAanvang>
+                      <datumEinde>20121123</datumEinde>
                     </registratie>
                     <afgeschermd>
                       <code>N</code>
@@ -265,25 +251,26 @@
                     </afgeschermd>
                     <adres>
                       <binnenlandsAdres>
-                        <straatnaam>Hegelhof</straatnaam>
-                        <huisnummer>46</huisnummer>
+                        <straatnaam>Thomas a Kempisstraat</straatnaam>
+                        <huisnummer>15</huisnummer>
+                        <huisletter>a</huisletter>
                         <postcode>
-                          <cijfercombinatie>1064</cijfercombinatie>
-                          <lettercombinatie>VX</lettercombinatie>
+                          <cijfercombinatie>7412</cijfercombinatie>
+                          <lettercombinatie>EK</lettercombinatie>
                         </postcode>
-                        <plaats>Amsterdam</plaats>
+                        <plaats>Deventer</plaats>
                         <bagId>
-                          <identificatieNummeraanduiding>0074999999225029</identificatieNummeraanduiding>
-                          <identificatieAdresseerbaarObject>0074999999162095</identificatieAdresseerbaarObject>
+                          <identificatieNummeraanduiding>0074999999746890</identificatieNummeraanduiding>
+                          <identificatieAdresseerbaarObject>0074999999372730</identificatieAdresseerbaarObject>
                         </bagId>
                       </binnenlandsAdres>
                     </adres>
-                    <volledigAdres>Hegelhof 46 1064VX Amsterdam</volledigAdres>
+                    <volledigAdres>Thomas a Kempisstraat 15 7412EK Deventer</volledigAdres>
                   </bezoekLocatie>
                   <communicatiegegevens>
-                    <registratie registratieTijdstip="20110412113406238">
-                      <datumAanvang>20050101</datumAanvang>
-                      <datumEinde>20110412</datumEinde>
+                    <registratie registratieTijdstip="20121214090432956">
+                      <datumAanvang>20000201</datumAanvang>
+                      <datumEinde>20121123</datumEinde>
                     </registratie>
                     <communicatienummer>
                       <toegangscode>+31</toegangscode>
@@ -293,30 +280,21 @@
                         <omschrijving>Telefoon</omschrijving>
                       </soort>
                     </communicatienummer>
-                    <communicatienummer>
-                      <toegangscode>+31</toegangscode>
-                      <nummer>0209999999</nummer>
-                      <soort>
-                        <code>F</code>
-                        <omschrijving>Fax</omschrijving>
-                      </soort>
-                    </communicatienummer>
-                    <emailAdres>nepemailadres@kvk.nl</emailAdres>
                   </communicatiegegevens>
-                  <eersteHandelsnaam>Grand Istamfan</eersteHandelsnaam>
-                  <voltijdWerkzamePersonen>5</voltijdWerkzamePersonen>
+                  <eersteHandelsnaam>International Goldcare</eersteHandelsnaam>
+                  <voltijdWerkzamePersonen>2</voltijdWerkzamePersonen>
                   <deeltijdWerkzamePersonen>0</deeltijdWerkzamePersonen>
-                  <totaalWerkzamePersonen>5</totaalWerkzamePersonen>
+                  <totaalWerkzamePersonen>2</totaalWerkzamePersonen>
                   <activiteiten>
-                    <omschrijving>Transportbedrijf (met name zeecontainervervoer).</omschrijving>
+                    <omschrijving>Groothandel in houtprodukten en aanverwante artikelen.</omschrijving>
                     <sbiActiviteit>
-                      <registratie registratieTijdstip="20110412113406238">
-                        <datumAanvang>20050101</datumAanvang>
-                        <datumEinde>20110412</datumEinde>
+                      <registratie registratieTijdstip="20121214090432956">
+                        <datumAanvang>20000201</datumAanvang>
+                        <datumEinde>20121123</datumEinde>
                       </registratie>
                       <sbiCode>
-                        <code>4941</code>
-                        <omschrijving>Goederenvervoer over de weg (geen verhuizingen)</omschrijving>
+                        <code>46731</code>
+                        <omschrijving>Groothandel in hout en plaatmateriaal</omschrijving>
                         <referentieType>ActiviteitCode</referentieType>
                       </sbiCode>
                       <isHoofdactiviteit>
@@ -337,16 +315,16 @@
                     </importeert>
                   </activiteiten>
                   <handeltOnder>
-                    <relatieRegistratie registratieTijdstip="20110412113406238">
-                      <datumAanvang>20051207</datumAanvang>
-                      <datumEinde>20110412</datumEinde>
+                    <relatieRegistratie registratieTijdstip="20121214090432956">
+                      <datumAanvang>20000201</datumAanvang>
+                      <datumEinde>20121123</datumEinde>
                     </relatieRegistratie>
                     <handelsnaam>
                       <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-                        <datumAanvang>20051207</datumAanvang>
-                        <datumEinde>20110412</datumEinde>
+                        <datumAanvang>20000201</datumAanvang>
+                        <datumEinde>20121123</datumEinde>
                       </registratie>
-                      <naam>Grand Istamfan</naam>
+                      <naam>International Goldcare</naam>
                       <volgorde>0</volgorde>
                     </handelsnaam>
                   </handeltOnder>
@@ -357,14 +335,14 @@
           <wordtGeleidVanuit>
             <commercieleVestiging>
               <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-                <datumAanvang>20050101</datumAanvang>
-                <datumEinde>20110412</datumEinde>
+                <datumAanvang>20000201</datumAanvang>
+                <datumEinde>20121123</datumEinde>
               </registratie>
-              <vestigingsnummer>990000092636</vestigingsnummer>
+              <vestigingsnummer>990000811734</vestigingsnummer>
               <bezoekLocatie>
-                <registratie registratieTijdstip="20110412113406238">
-                  <datumAanvang>20061124</datumAanvang>
-                  <datumEinde>20110412</datumEinde>
+                <registratie registratieTijdstip="20121214090432956">
+                  <datumAanvang>20020214</datumAanvang>
+                  <datumEinde>20121123</datumEinde>
                 </registratie>
                 <afgeschermd>
                   <code>N</code>
@@ -373,25 +351,26 @@
                 </afgeschermd>
                 <adres>
                   <binnenlandsAdres>
-                    <straatnaam>Hegelhof</straatnaam>
-                    <huisnummer>46</huisnummer>
+                    <straatnaam>Thomas a Kempisstraat</straatnaam>
+                    <huisnummer>15</huisnummer>
+                    <huisletter>a</huisletter>
                     <postcode>
-                      <cijfercombinatie>1064</cijfercombinatie>
-                      <lettercombinatie>VX</lettercombinatie>
+                      <cijfercombinatie>7412</cijfercombinatie>
+                      <lettercombinatie>EK</lettercombinatie>
                     </postcode>
-                    <plaats>Amsterdam</plaats>
+                    <plaats>Deventer</plaats>
                     <bagId>
-                      <identificatieNummeraanduiding>0074999999225029</identificatieNummeraanduiding>
-                      <identificatieAdresseerbaarObject>0074999999162095</identificatieAdresseerbaarObject>
+                      <identificatieNummeraanduiding>0074999999746890</identificatieNummeraanduiding>
+                      <identificatieAdresseerbaarObject>0074999999372730</identificatieAdresseerbaarObject>
                     </bagId>
                   </binnenlandsAdres>
                 </adres>
-                <volledigAdres>Hegelhof 46 1064VX Amsterdam</volledigAdres>
+                <volledigAdres>Thomas a Kempisstraat 15 7412EK Deventer</volledigAdres>
               </bezoekLocatie>
               <communicatiegegevens>
-                <registratie registratieTijdstip="20110412113406238">
-                  <datumAanvang>20050101</datumAanvang>
-                  <datumEinde>20110412</datumEinde>
+                <registratie registratieTijdstip="20121214090432956">
+                  <datumAanvang>20000201</datumAanvang>
+                  <datumEinde>20121123</datumEinde>
                 </registratie>
                 <communicatienummer>
                   <toegangscode>+31</toegangscode>
@@ -401,30 +380,21 @@
                     <omschrijving>Telefoon</omschrijving>
                   </soort>
                 </communicatienummer>
-                <communicatienummer>
-                  <toegangscode>+31</toegangscode>
-                  <nummer>0209999999</nummer>
-                  <soort>
-                    <code>F</code>
-                    <omschrijving>Fax</omschrijving>
-                  </soort>
-                </communicatienummer>
-                <emailAdres>nepemailadres@kvk.nl</emailAdres>
               </communicatiegegevens>
-              <eersteHandelsnaam>Grand Istamfan</eersteHandelsnaam>
-              <voltijdWerkzamePersonen>5</voltijdWerkzamePersonen>
+              <eersteHandelsnaam>International Goldcare</eersteHandelsnaam>
+              <voltijdWerkzamePersonen>2</voltijdWerkzamePersonen>
               <deeltijdWerkzamePersonen>0</deeltijdWerkzamePersonen>
-              <totaalWerkzamePersonen>5</totaalWerkzamePersonen>
+              <totaalWerkzamePersonen>2</totaalWerkzamePersonen>
               <activiteiten>
-                <omschrijving>Transportbedrijf (met name zeecontainervervoer).</omschrijving>
+                <omschrijving>Groothandel in houtprodukten en aanverwante artikelen.</omschrijving>
                 <sbiActiviteit>
-                  <registratie registratieTijdstip="20110412113406238">
-                    <datumAanvang>20050101</datumAanvang>
-                    <datumEinde>20110412</datumEinde>
+                  <registratie registratieTijdstip="20121214090432956">
+                    <datumAanvang>20000201</datumAanvang>
+                    <datumEinde>20121123</datumEinde>
                   </registratie>
                   <sbiCode>
-                    <code>4941</code>
-                    <omschrijving>Goederenvervoer over de weg (geen verhuizingen)</omschrijving>
+                    <code>46731</code>
+                    <omschrijving>Groothandel in hout en plaatmateriaal</omschrijving>
                     <referentieType>ActiviteitCode</referentieType>
                   </sbiCode>
                   <isHoofdactiviteit>
@@ -445,52 +415,143 @@
                 </importeert>
               </activiteiten>
               <handeltOnder>
-                <relatieRegistratie registratieTijdstip="20110412113406238">
-                  <datumAanvang>20051207</datumAanvang>
-                  <datumEinde>20110412</datumEinde>
+                <relatieRegistratie registratieTijdstip="20121214090432956">
+                  <datumAanvang>20000201</datumAanvang>
+                  <datumEinde>20121123</datumEinde>
                 </relatieRegistratie>
                 <handelsnaam>
                   <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-                    <datumAanvang>20051207</datumAanvang>
-                    <datumEinde>20110412</datumEinde>
+                    <datumAanvang>20000201</datumAanvang>
+                    <datumEinde>20121123</datumEinde>
                   </registratie>
-                  <naam>Grand Istamfan</naam>
+                  <naam>International Goldcare</naam>
                   <volgorde>0</volgorde>
                 </handelsnaam>
               </handeltOnder>
             </commercieleVestiging>
           </wordtGeleidVanuit>
           <heeftAlsEigenaar>
-            <relatieRegistratie registratieTijdstip="20110412113406238">
-              <datumAanvang>20060330</datumAanvang>
-              <datumEinde>20110412</datumEinde>
+            <relatieRegistratie registratieTijdstip="20121214090432956">
+              <datumAanvang>20000201</datumAanvang>
+              <datumEinde>20121123</datumEinde>
             </relatieRegistratie>
             <samenwerkingsverband>
               <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-                <datumAanvang>20060330</datumAanvang>
-                <datumEinde>20110412</datumEinde>
+                <datumAanvang>20000201</datumAanvang>
               </registratie>
-              <persoonRechtsvorm>Commanditaire Vennootschap</persoonRechtsvorm>
-              <volledigeNaam>Grand Istamfan</volledigeNaam>
-              <uitgebreideRechtsvorm>Commanditaire Vennootschap</uitgebreideRechtsvorm>
+              <bijzondereRechtstoestand>
+                <registratie registratieTijdstip="20121214090432956">
+                  <datumAanvang>20100928</datumAanvang>
+                  <datumEinde>20121123</datumEinde>
+                </registratie>
+                <soort>
+                  <code>FAIL</code>
+                  <omschrijving>Faillissement</omschrijving>
+                  <referentieType>geenRT</referentieType>
+                </soort>
+                <uitspraakEinde>
+                  <datum>20121123</datum>
+                  <naam>Rechtbank Zwolle-Lelystad</naam>
+                  <plaats>Zwolle</plaats>
+                </uitspraakEinde>
+              </bijzondereRechtstoestand>
+              <persoonRechtsvorm>Vennootschap Onder Firma</persoonRechtsvorm>
+              <volledigeNaam>International Goldcare</volledigeNaam>
+              <uitgebreideRechtsvorm>Vennootschap Onder Firma</uitgebreideRechtsvorm>
+              <heeft>
+                <functionarisBijzondereRechtstoestand>
+                  <registratie registratieTijdstip="20100930155518298">
+                    <datumAanvang>20100928</datumAanvang>
+                    <datumEinde>20121123</datumEinde>
+                  </registratie>
+                  <door>
+                    <naamPersoon>
+                      <registratie registratieTijdstip="20100930155518298">
+                        <datumAanvang>20100928</datumAanvang>
+                      </registratie>
+                      <volledigeNaam>mr. Usha Houseknecht</volledigeNaam>
+                      <bezoekLocatiePersoon>
+                        <registratie registratieTijdstip="20100930155518298">
+                          <datumAanvang>20100928</datumAanvang>
+                        </registratie>
+                        <afgeschermd>
+                          <code>N</code>
+                          <omschrijving>Nee</omschrijving>
+                          <referentieType>geenRT</referentieType>
+                        </afgeschermd>
+                        <adres>
+                          <binnenlandsAdres>
+                            <postbusnummer>99999</postbusnummer>
+                            <postcode>
+                              <cijfercombinatie>4336</cijfercombinatie>
+                              <lettercombinatie>KL</lettercombinatie>
+                            </postcode>
+                            <plaats>Middelburg</plaats>
+                          </binnenlandsAdres>
+                        </adres>
+                        <volledigAdres>Postbus 99999 4336KL Middelburg</volledigAdres>
+                      </bezoekLocatiePersoon>
+                      <naam>mr. Usha Houseknecht</naam>
+                      <telefoonnummer>
+                        <toegangscode>+31</toegangscode>
+                        <nummer>0384600111</nummer>
+                      </telefoonnummer>
+                    </naamPersoon>
+                  </door>
+                  <functie>
+                    <code>07</code>
+                    <omschrijving>Curator</omschrijving>
+                    <referentieType>FunctionarisRol</referentieType>
+                  </functie>
+                </functionarisBijzondereRechtstoestand>
+              </heeft>
+              <heeft>
+                <functionarisBijzondereRechtstoestand>
+                  <registratie registratieTijdstip="20100930155518298">
+                    <datumAanvang>20100928</datumAanvang>
+                    <datumEinde>20121123</datumEinde>
+                  </registratie>
+                  <door>
+                    <naamPersoon>
+                      <registratie registratieTijdstip="20100930155518298">
+                        <datumAanvang>20100928</datumAanvang>
+                      </registratie>
+                      <volledigeNaam>mr. Elida Henkle</volledigeNaam>
+                      <naam>mr. Elida Henkle</naam>
+                    </naamPersoon>
+                  </door>
+                  <functie>
+                    <code>11</code>
+                    <omschrijving>Rechter-commissaris</omschrijving>
+                    <referentieType>FunctionarisRol</referentieType>
+                  </functie>
+                </functionarisBijzondereRechtstoestand>
+              </heeft>
               <heeft>
                 <aansprakelijke>
                   <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-                    <datumAanvang>20061010</datumAanvang>
-                    <datumEinde>20110412</datumEinde>
+                    <datumAanvang>20000201</datumAanvang>
+                    <datumEinde>20121123</datumEinde>
                   </registratie>
                   <door>
                     <natuurlijkPersoon>
                       <extraElementen>
-                        <extraElement naam="achternaam">Gordy - Gordy</extraElement>
+                        <extraElement naam="achternaam">Klaasen</extraElement>
                       </extraElementen>
                       <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-                        <datumAanvang>19490512</datumAanvang>
+                        <datumAanvang>19940222</datumAanvang>
                       </registratie>
-                      <volledigeNaam>Katelin Gordy</volledigeNaam>
-                      <geslachtsnaam>Gordy - Gordy</geslachtsnaam>
-                      <voornamen>Katelin</voornamen>
-                      <geboortedatum>19490512</geboortedatum>
+                      <bijzondereRechtstoestand>
+                        <soort>
+                          <code>FAIL</code>
+                          <omschrijving>Faillissement</omschrijving>
+                          <referentieType>geenRT</referentieType>
+                        </soort>
+                      </bijzondereRechtstoestand>
+                      <volledigeNaam>Jan Klaasen</volledigeNaam>
+                      <geslachtsnaam>Klaasen</geslachtsnaam>
+                      <voornamen>Jan</voornamen>
+                      <geboortedatum>20000101</geboortedatum>
                     </natuurlijkPersoon>
                   </door>
                   <functie>
@@ -499,9 +560,9 @@
                     <referentieType>FunctionarisRol</referentieType>
                   </functie>
                   <bevoegdheid>
-                    <registratie registratieTijdstip="20110412113406238">
-                      <datumAanvang>20061010</datumAanvang>
-                      <datumEinde>20110412</datumEinde>
+                    <registratie registratieTijdstip="20121214090432956">
+                      <datumAanvang>20000201</datumAanvang>
+                      <datumEinde>20121123</datumEinde>
                     </registratie>
                     <soort>
                       <code>ob</code>
@@ -517,72 +578,77 @@
                 </aansprakelijke>
               </heeft>
               <heeft>
-                <gemachtigde>
+                <aansprakelijke>
                   <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-                    <datumAanvang>20070521</datumAanvang>
-                    <datumEinde>20110412</datumEinde>
+                    <datumAanvang>20000201</datumAanvang>
+                    <datumEinde>20121123</datumEinde>
                   </registratie>
                   <door>
                     <natuurlijkPersoon>
                       <extraElementen>
-                        <extraElement naam="achternaam">Andry</extraElement>
+                        <extraElement naam="achternaam">Seifert</extraElement>
                       </extraElementen>
                       <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
-                        <datumAanvang>19600714</datumAanvang>
+                        <datumAanvang>19790405</datumAanvang>
                       </registratie>
-                      <volledigeNaam>Kothie Andry</volledigeNaam>
-                      <geslachtsnaam>Andry</geslachtsnaam>
-                      <voornamen>Kothie</voornamen>
-                      <geboortedatum>19600714</geboortedatum>
+                      <bijzondereRechtstoestand>
+                        <soort>
+                          <code>FAIL</code>
+                          <omschrijving>Faillissement</omschrijving>
+                          <referentieType>geenRT</referentieType>
+                        </soort>
+                      </bijzondereRechtstoestand>
+                      <volledigeNaam>Wesley Seifert</volledigeNaam>
+                      <geslachtsnaam>Seifert</geslachtsnaam>
+                      <voornamen>Wesley</voornamen>
+                      <geboortedatum>19790405</geboortedatum>
                     </natuurlijkPersoon>
                   </door>
                   <functie>
-                    <code>01</code>
-                    <omschrijving>Gevolmachtigde</omschrijving>
+                    <code>13</code>
+                    <omschrijving>Vennoot</omschrijving>
                     <referentieType>FunctionarisRol</referentieType>
                   </functie>
-                  <volmacht>
-                    <registratie registratieTijdstip="20110412113406238">
-                      <datumAanvang>20070521</datumAanvang>
-                      <datumEinde>20110412</datumEinde>
+                  <bevoegdheid>
+                    <registratie registratieTijdstip="20121214090432956">
+                      <datumAanvang>20000201</datumAanvang>
+                      <datumEinde>20121123</datumEinde>
                     </registratie>
-                    <typeVolmacht>
-                      <code>v</code>
-                      <omschrijving>Volledige volmacht</omschrijving>
-                      <referentieType>VolmachtType</referentieType>
-                    </typeVolmacht>
-                    <isStatutair>
+                    <soort>
+                      <code>ob</code>
+                      <omschrijving>Onbeperkt bevoegd</omschrijving>
+                      <referentieType>SoortBevoegdheidAansprakelijkeBijSamenwerkingsverband</referentieType>
+                    </soort>
+                    <overigeBeperking>
                       <code>N</code>
                       <omschrijving>Nee</omschrijving>
                       <referentieType>geenRT</referentieType>
-                    </isStatutair>
-                   
-                  </volmacht>
-                </gemachtigde>
+                    </overigeBeperking>
+                  </bevoegdheid>
+                </aansprakelijke>
               </heeft>
-              <rsin>992243403</rsin>
+              <rsin>992953327</rsin>
               <naamgeving>
-                <registratie registratieTijdstip="20110412113406238">
-                  <datumAanvang>20060330</datumAanvang>
-                  <datumEinde>20110412</datumEinde>
+                <registratie registratieTijdstip="20121214090432956">
+                  <datumAanvang>20000201</datumAanvang>
+                  <datumEinde>20121123</datumEinde>
                 </registratie>
-                <naam>Grand Istamfan</naam>
+                <naam>International Goldcare</naam>
               </naamgeving>
               <ontbinding>
-                <registratie registratieTijdstip="20110412113406238">
-                  <datumAanvang>20110412</datumAanvang>
+                <registratie registratieTijdstip="20121214090432956">
+                  <datumAanvang>20121123</datumAanvang>
                 </registratie>
               </ontbinding>
               <rechtsvorm>
-                <code>CV</code>
-                <omschrijving>Commanditaire Vennootschap</omschrijving>
+                <code>VOF</code>
+                <omschrijving>Vennootschap Onder Firma</omschrijving>
                 <referentieType>Rechtsvorm</referentieType>
               </rechtsvorm>
-              <aantalCommanditaireVennoten>1</aantalCommanditaireVennoten>
               <duur>
-                <registratie registratieTijdstip="20110412113406238">
-                  <datumAanvang>20060330</datumAanvang>
-                  <datumEinde>20110412</datumEinde>
+                <registratie registratieTijdstip="20121214090432956">
+                  <datumAanvang>20000201</datumAanvang>
+                  <datumEinde>20121123</datumEinde>
                 </registratie>
                 <heeftOnbepaaldeDuur>
                   <code>J</code>
@@ -590,25 +656,6 @@
                   <referentieType>geenRT</referentieType>
                 </heeftOnbepaaldeDuur>
               </duur>
-              <commanditairKapitaal>
-                <registratie registratieTijdstip="20110412113406238">
-                  <datumAanvang>20060330</datumAanvang>
-                  <datumEinde>20110412</datumEinde>
-                </registratie>
-                <bedrag>
-                  <waarde>2000</waarde>
-                  <valuta>
-                    <code>EUR</code>
-                    <omschrijving>Euro</omschrijving>
-                    <referentieType>Valuta</referentieType>
-                  </valuta>
-                </bedrag>
-                <soort>
-                  <code>geld</code>
-                  <omschrijving>Geld</omschrijving>
-                  <referentieType>SoortCommanditairKapitaal</referentieType>
-                </soort>
-              </commanditairKapitaal>
             </samenwerkingsverband>
           </heeftAlsEigenaar>
         </maatschappelijkeActiviteit>

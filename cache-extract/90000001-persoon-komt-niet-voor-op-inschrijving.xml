@@ -112,7 +112,7 @@
           <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
             <datumAanvang>19941118</datumAanvang>
           </registratie>
-          <kvkNummer>90000021</kvkNummer>
+          <kvkNummer>90000002</kvkNummer>
           <nonMailing>
             <code>N</code>
             <omschrijving>Nee</omschrijving>
@@ -189,7 +189,7 @@
             </communicatienummer>
             <emailAdres>nepemailadres@kvk.nl</emailAdres>
           </communicatiegegevens>
-          <naam>Regional Superfase</naam>
+          <naam>Witbaard Autogarage</naam>
           <manifesteertZichAls>
             <relatieRegistratie registratieTijdstipNoValue="vastgesteldOnbekend">
               <datumAanvang>19960301</datumAanvang>
@@ -916,13 +916,13 @@
             </relatieRegistratie>
             <natuurlijkPersoon>
               <extraElementen>
-                <extraElement naam="achternaam">Rone</extraElement>
+                <extraElement naam="achternaam">Klaassen</extraElement>
               </extraElementen>
               <registratie registratieTijdstipNoValue="vastgesteldOnbekend">
                 <datumAanvang>19791214</datumAanvang>
               </registratie>
               <persoonRechtsvorm>Eenmanszaak</persoonRechtsvorm>
-              <volledigeNaam>Kerry Rone</volledigeNaam>
+              <volledigeNaam>Jan Klaassen</volledigeNaam>
               <uitgebreideRechtsvorm>Eenmanszaak</uitgebreideRechtsvorm>
               <heeft>
                 <gemachtigde>
@@ -950,9 +950,9 @@
                   </functie>
                 </gemachtigde>
               </heeft>
-              <geslachtsnaam>Rone</geslachtsnaam>
-              <voornamen>Kerry</voornamen>
-              <geboortedatum>19791214</geboortedatum>
+              <geslachtsnaam>Klaassen</geslachtsnaam>
+              <voornamen>Jan</voornamen>
+              <geboortedatum>20000101</geboortedatum>
             </natuurlijkPersoon>
           </heeftAlsEigenaar>
         </maatschappelijkeActiviteit>
