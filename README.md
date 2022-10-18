@@ -1,4 +1,4 @@
-Bevoegdheden REST API
+KVK Bevoegdheden REST API
 --------------------
 
 Simple REST API build on top of kvk extract lib. 
