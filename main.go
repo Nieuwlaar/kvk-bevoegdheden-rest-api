@@ -56,6 +56,7 @@ func main() {
 			return
 		} else if err != nil {
 			rend.JSON(w, http.StatusInternalServerError, err)
+			return
 		}
 
 		rend.JSON(w, http.StatusOK, bevoegdheidResponse)
