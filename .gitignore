@@ -4,7 +4,7 @@ __debug_bin
 
 /keys
 .env
-kvk-extract-manual
+kvk-bevoegdheden-rest-api
 restart.sh
 /archive
 

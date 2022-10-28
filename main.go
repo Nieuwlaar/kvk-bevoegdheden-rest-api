@@ -10,8 +10,8 @@ import (
 
 	"github.com/go-chi/chi/v5"
 	"github.com/go-chi/chi/v5/middleware"
-	kvkExtract "github.com/privacybydesign/kvk-extract"
-	"github.com/privacybydesign/kvk-extract/models"
+	kvkBevoegdheden "github.com/kvk-innovatie/kvk-bevoegdheden"
+	"github.com/kvk-innovatie/kvk-bevoegdheden/models"
 	"github.com/unrolled/render"
 )
 
@@ -26,8 +26,8 @@ func main() {
 	r.Use(middleware.Recoverer)
 	r.Use(middleware.Timeout(60 * time.Second))
 
-	r.Get("/api/test-extracts", func(w http.ResponseWriter, r *http.Request) {
-		files, err := ioutil.ReadDir("./cache-extract/")
+	r.Get("/api/test-inschrijvingen", func(w http.ResponseWriter, r *http.Request) {
+		files, err := ioutil.ReadDir("./cache-inschrijvingen/")
 		if err != nil {
 			rend.JSON(w, http.StatusNotFound, err)
 		}
@@ -46,12 +46,12 @@ func main() {
 		identityNP := models.IdentityNP{}
 		json.NewDecoder(r.Body).Decode(&identityNP)
 
-		bevoegdheidResponse, err := kvkExtract.GetBevoegdheid(kvkNummer, identityNP, os.Getenv("CERTIFICATE_KVK"), os.Getenv("PRIVATE_KEY_KVK"), true, "preprd")
+		bevoegdheidResponse, err := kvkBevoegdheden.GetBevoegdheid(kvkNummer, identityNP, os.Getenv("CERTIFICATE_KVK"), os.Getenv("PRIVATE_KEY_KVK"), true, "preprd")
 
-		if err == kvkExtract.ErrExtractNotFound {
+		if err == kvkBevoegdheden.ErrInschrijvingNotFound {
 			rend.JSON(w, http.StatusNotFound, err)
 			return
-		} else if err == kvkExtract.ErrInvalidInput {
+		} else if err == kvkBevoegdheden.ErrInvalidInput {
 			rend.JSON(w, http.StatusBadRequest, err)
 			return
 		} else if err != nil {

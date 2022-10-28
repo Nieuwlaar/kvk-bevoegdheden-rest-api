@@ -1,10 +1,10 @@
 KVK Bevoegdheden REST API
 --------------------
 
-Simple REST API build on top of kvk extract lib. 
+Simple REST API build on top of KVK Bevoegdheden lib. 
 
 ## Setup
-Make sure you have cloned the dependency project https://github.com/privacybydesign/kvk-extract in the same folder as this project.
+Make sure you have cloned the dependency project https://github.com/kvk-innovatie/kvk-bevoegdheden in the same folder as this project.
 
 ## To run locally
 ```

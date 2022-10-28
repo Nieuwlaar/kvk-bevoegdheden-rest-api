@@ -1,12 +1,12 @@
-module github.com/michielmayer/kvk-extract-manual
+module github.com/kvk-innovatie/kvk-bevoegdheden-rest-api
 
 go 1.18
 
-replace github.com/privacybydesign/kvk-extract => ../kvk-extract
+replace github.com/kvk-innovatie/kvk-bevoegdheden => ../kvk-bevoegdheden
 
 require (
 	github.com/go-chi/chi/v5 v5.0.7
-	github.com/privacybydesign/kvk-extract v0.0.0-00010101000000-000000000000
+	github.com/kvk-innovatie/kvk-bevoegdheden v0.0.0-00010101000000-000000000000
 	github.com/unrolled/render v1.4.1
 )
 

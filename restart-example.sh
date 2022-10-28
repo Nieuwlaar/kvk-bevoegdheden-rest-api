@@ -1,6 +1,6 @@
 #!/bin/sh
 go build $PWD
-killall kvk-extract-manual
+killall kvk-bevoegdheden-rest-api
 CERTIFICATE_KVK="-----BEGIN CERTIFICATE-----
 xxx
 xxx
@@ -10,4 +10,4 @@ xxx
 xxx
 xxx
 xxx
------END RSA PRIVATE KEY-----" ./kvk-extract-manual &
+-----END RSA PRIVATE KEY-----" ./kvk-bevoegdheden-rest-api &
