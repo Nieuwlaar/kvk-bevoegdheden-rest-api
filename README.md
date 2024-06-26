@@ -155,3 +155,13 @@ Checks if a natural person has signatory rights for the specified kvkNummer.
     }
 }
 ```
+
+## Examples
+6 example responses from the HR dataservice XML files are provided. 
+- 90000001
+- 90000002
+- 90000003
+- 90000004
+- 90000005
+- 90000006
+You can use/edit these to test this rest-api.
