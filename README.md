@@ -127,10 +127,10 @@ Checks if a natural person has signatory rights for the specified kvkNummer.
 - Request Body:
 ```
 {
-    "geslachtsnaam": "Klaassen",
-    "voornamen": "Jan",
-    "geboortedatum": "01-01-2000",
-    "voorvoegselGeslachtsnaam": ""
+    "geslachtsnaam": "Klaassen",     // Surname
+    "voornamen": "Jan",              // First names
+    "geboortedatum": "01-01-2000",   // Date of Birth
+    "voorvoegselGeslachtsnaam": ""   // Prefix of Surname
 }
 ```
 **Response:**
