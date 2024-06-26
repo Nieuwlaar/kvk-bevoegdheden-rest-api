@@ -122,9 +122,9 @@ Checks if a natural person has signatory rights for the specified kvkNummer.
 - Request Body:
 ```
 {
-    "geslachtsnaam": "Klsadasdassen",
-    "voornamen": "Jasdasdan",
-    "geboortedatum": "19-07-1969",
+    "geslachtsnaam": "Klaassen",
+    "voornamen": "Jan",
+    "geboortedatum": "01-01-2000",
     "voorvoegselGeslachtsnaam": ""
 }
 ```
