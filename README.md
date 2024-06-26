@@ -37,8 +37,9 @@ http://localhost:3333/api
 ### 1. LPID
 
 **Endpoint:**
+```
 POST /api/lpid/{kvkNummer}
-
+```
 **Description:**
 Fetches the LPID (Legal Person Identification Data) details for the specified `kvkNummer`.
 
@@ -66,7 +67,9 @@ Fetches the LPID (Legal Person Identification Data) details for the specified `k
 ```
 ### 2. Company Certificate
 **Endpoint:**
+```
 POST /api/company-certificate/{kvkNummer}
+```
 **Description:**
 Fetches the company certificate details for the specified kvkNummer.
 
@@ -113,7 +116,9 @@ Fetches the company certificate details for the specified kvkNummer.
 ```
 ### 3. Natural Person Signatory Right
 **Endpoint:**
+```
 POST /api/signatory-rights/{kvkNummer}
+```
 **Description:**
 Checks if a natural person has signatory rights for the specified kvkNummer.
 
