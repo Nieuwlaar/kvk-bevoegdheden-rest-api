@@ -157,11 +157,12 @@ Checks if a natural person has signatory rights for the specified kvkNummer.
 ```
 
 ## Examples
-6 example responses from the HR dataservice XML files are provided. 
+Six example responses are included in the "cache-inschrijvingen" folder from the HR dataservice XML files, identified by the following KVK numbers:
 - 90000001
 - 90000002
 - 90000003
 - 90000004
 - 90000005
 - 90000006
-You can use/edit these to test this rest-api.
+
+You can use/edit these to test the API.
