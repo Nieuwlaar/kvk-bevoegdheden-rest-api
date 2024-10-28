@@ -2,6 +2,7 @@ package main
 
 import (
 	"encoding/json"
+	"fmt"
 	"io/ioutil"
 	"log"
 	"net/http"
@@ -51,11 +52,11 @@ func main() {
 		handleSignatoryRight(w, r, rend)
 	})
 
-	r.Post("/api/company-certificate/{kvkNummer}", func(w http.ResponseWriter, r *http.Request) {
+	r.Get("/api/company-certificate/{kvkNummer}", func(w http.ResponseWriter, r *http.Request) {
 		handleCompanyCertificate(w, r, rend)
 	})
 
-	r.Post("/api/lpid/{kvkNummer}", func(w http.ResponseWriter, r *http.Request) {
+	r.Get("/api/lpid/{kvkNummer}", func(w http.ResponseWriter, r *http.Request) {
 		handleLPID(w, r, rend)
 	})
 
@@ -141,6 +142,8 @@ func handleSignatoryRight(w http.ResponseWriter, r *http.Request, rend *render.R
 	}
 	log.Println("Fullnames Request: " + fullNameRequest)
 	matchedFullName := ""
+	fmt.Printf("Functionarissen: %+v", bevoegdheidUittreksel.AlleFunctionarissen)
+
 	for _, personEntry := range bevoegdheidUittreksel.AlleFunctionarissen {
 		fullName := strings.Join(strings.Fields(strings.Join([]string{personEntry.Voornamen, personEntry.VoorvoegselGeslachtsnaam, personEntry.Geslachtsnaam}, " ")), " ")
 		log.Println("Fullnames XML: " + fullName)
@@ -169,10 +172,8 @@ func handleSignatoryRight(w http.ResponseWriter, r *http.Request, rend *render.R
 
 func handleLPID(w http.ResponseWriter, r *http.Request, rend *render.Render) {
 	kvkNummer := chi.URLParam(r, "kvkNummer")
-	identityNP := models.IdentityNP{}
-	json.NewDecoder(r.Body).Decode(&identityNP)
 
-	bevoegdheidResponse, err := kvkBevoegdheden.GetBevoegdheid(kvkNummer, identityNP, os.Getenv("CERTIFICATE_KVK"), os.Getenv("PRIVATE_KEY_KVK"), true, "preprd")
+	bevoegdheidResponse, err := kvkBevoegdheden.GetLPID(kvkNummer, os.Getenv("CERTIFICATE_KVK"), os.Getenv("PRIVATE_KEY_KVK"), true, "preprd")
 
 	if err == kvkBevoegdheden.ErrInschrijvingNotFound {
 		rend.JSON(w, http.StatusNotFound, err)
@@ -192,7 +193,6 @@ func handleLPID(w http.ResponseWriter, r *http.Request, rend *render.Render) {
 		"data": map[string]interface{}{
 			"id":                "NLNHR." + bevoegdheidUittreksel.KvkNummer, // Conversion to EUID
 			"legal_person_name": bevoegdheidUittreksel.Naam,
-			"legal_form":        bevoegdheidUittreksel.PersoonRechtsvorm,
 		},
 		"metadata": generateMetadata(),
 	}
@@ -202,10 +202,8 @@ func handleLPID(w http.ResponseWriter, r *http.Request, rend *render.Render) {
 
 func handleCompanyCertificate(w http.ResponseWriter, r *http.Request, rend *render.Render) {
 	kvkNummer := chi.URLParam(r, "kvkNummer")
-	identityNP := models.IdentityNP{}
-	json.NewDecoder(r.Body).Decode(&identityNP)
 
-	bevoegdheidResponse, err := kvkBevoegdheden.GetBevoegdheid(kvkNummer, identityNP, os.Getenv("CERTIFICATE_KVK"), os.Getenv("PRIVATE_KEY_KVK"), true, "preprd")
+	bevoegdheidResponse, err := kvkBevoegdheden.GetCompanyCertificate(kvkNummer, os.Getenv("CERTIFICATE_KVK"), os.Getenv("PRIVATE_KEY_KVK"), true, "preprd")
 
 	if err == kvkBevoegdheden.ErrInschrijvingNotFound {
 		rend.JSON(w, http.StatusNotFound, err)
@@ -220,29 +218,33 @@ func handleCompanyCertificate(w http.ResponseWriter, r *http.Request, rend *rend
 
 	// Extracting necessary fields from the bevoegdheidResponse
 	bevoegdheidUittreksel := bevoegdheidResponse.BevoegdheidUittreksel
+	fmt.Printf("bevoegdheidUittreksel: %+v", bevoegdheidUittreksel)
+
+	fmt.Printf("Functionarissen: %+v", bevoegdheidUittreksel.AlleFunctionarissen)
 
 	// Pruning authorized_persons data and combining names
 	prunedAuthorizedPersons := []map[string]interface{}{}
 	for _, person := range bevoegdheidUittreksel.AlleFunctionarissen {
+		fmt.Printf("Functionarissen: %+v", bevoegdheidUittreksel.AlleFunctionarissen)
 		fullName := strings.Join(strings.Fields(strings.Join([]string{person.Voornamen, person.VoorvoegselGeslachtsnaam, person.Geslachtsnaam}, " ")), " ")
-		var isAuthorized string
-		switch person.Interpretatie.IsBevoegd {
-		case "Ja":
-			isAuthorized = "Yes"
-		case "Nee":
-			isAuthorized = "No"
-		case "Niet vastgesteld":
-			isAuthorized = "Not determined"
-		default:
-			isAuthorized = "Unknown"
-		}
+		// var isAuthorized string
+		// switch person.Interpretatie.IsBevoegd {
+		// case "Ja":
+		// 	isAuthorized = "Yes"
+		// case "Nee":
+		// 	isAuthorized = "No"
+		// case "Niet vastgesteld":
+		// 	isAuthorized = "Not determined"
+		// default:
+		// 	isAuthorized = "Unknown"
+		// }
 
 		prunedPerson := map[string]interface{}{
 			"full_name":     fullName,
 			"date_of_birth": person.Geboortedatum,
-			"interpretatie": map[string]interface{}{
-				"isAuthorized": isAuthorized,
-			},
+			// "interpretatie": map[string]interface{}{
+			// 	"isAuthorized": isAuthorized,
+			// },
 		}
 		prunedAuthorizedPersons = append(prunedAuthorizedPersons, prunedPerson)
 	}

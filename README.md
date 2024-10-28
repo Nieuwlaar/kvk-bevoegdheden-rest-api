@@ -38,7 +38,7 @@ http://localhost:3333/api
 
 **Endpoint:**
 ```
-POST /api/lpid/{kvkNummer}
+GET /api/lpid/{kvkNummer}
 ```
 **Description:**
 Fetches the LPID (Legal Person Identification Data) details for the specified `kvkNummer`.
@@ -68,7 +68,7 @@ Fetches the LPID (Legal Person Identification Data) details for the specified `k
 ### 2. Company Certificate
 **Endpoint:**
 ```
-POST /api/company-certificate/{kvkNummer}
+GET /api/company-certificate/{kvkNummer}
 ```
 **Description:**
 Fetches the company certificate details for the specified kvkNummer.
